@@ -1,6 +1,7 @@
 import React from "react";
 import robomurdermystery from "../assets/robomurdermystery.png";
 import giftify from "../assets/giftify.png";
+import regex from "../assets/regex.png";
 
 const Projects = () => {
   return (
@@ -33,7 +34,12 @@ const Projects = () => {
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                       Robot Murder Mystery
                     </h1>
-                    <p className="leading-relaxed">A guess-who style game.</p>
+                    <p className="leading-relaxed">
+                      You've been called in for Detective work by the
+                      International Galactic Robot Department to solve the case.
+                      Ever since the world created a new population of Bots,
+                      there needed to be structure and order.
+                    </p>
                   </a>
                 </div>
               </div>
@@ -42,12 +48,12 @@ const Projects = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/601x361"
+                  className="rounded-md absolute inset-0 w-full h-full object-cover object-center"
+                  src={regex}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <a href="https://gist.github.com/lavollmer/ce5334f65987446ca95d2a15bf8d53ae">
-                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 className=" rounded-md tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                       Regex Tutorial
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -90,7 +96,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3 sm:w-1/2 p-4">
+            {/* <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -161,7 +167,7 @@ const Projects = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
