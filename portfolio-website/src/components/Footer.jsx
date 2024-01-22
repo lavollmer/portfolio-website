@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineBulb } from "react-icons/ai";
 import { GrLinkedin } from "react-icons/gr";
-import { FaGit, FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
