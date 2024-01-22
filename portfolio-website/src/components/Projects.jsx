@@ -1,4 +1,6 @@
 import React from "react";
+import robomurdermystery from "../assets/robomurdermystery.png";
+import giftify from "../assets/giftify.png";
 
 const Projects = () => {
   return (
@@ -18,21 +20,21 @@ const Projects = () => {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
-                {/* <a href="https://franklinbrad.github.io/robot-murder-mystery/"> */}
                 <img
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="../assets/robomurdermyster.png"
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src={robomurdermystery}
                   alt="Robot Murder Mystery Game"
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    Group Project
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Robot Murder Mystery
-                  </h1>
-                  <p className="leading-relaxed">A guess-who style game.</p>
-                  {/* </a> */}
+                <div className="rounded-md px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <a href="https://franklinbrad.github.io/robot-murder-mystery/">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                      Group Project
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Robot Murder Mystery
+                    </h1>
+                    <p className="leading-relaxed">A guess-who style game.</p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -66,10 +68,10 @@ const Projects = () => {
               <div className="flex relative">
                 <img
                   alt="Giftify App"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="../assets/giftify.png"
+                  className="rounded-md absolute inset-0 w-full h-full object-cover object-center"
+                  src={giftify}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className=" rounded-md px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <a href="https://gift-guide-020589889d66.herokuapp.com/">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
                       Group Project
