@@ -65,21 +65,26 @@ const Projects = () => {
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
-                  alt="gallery"
+                  alt="Giftify App"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/603x363"
+                  src="../assets/giftify.png"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    The 400 Blows
-                  </h1>
-                  <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
-                  </p>
+                  <a href="https://gift-guide-020589889d66.herokuapp.com/">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                      Group Project
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                      Giftify
+                    </h1>
+                    <p className="leading-relaxed">
+                      This group project involved creating a gift guide website
+                      for multiple end users. The purpose of the website was to
+                      help end users purchase gifts for other individuals, and
+                      those in specific groups (i.e. Secret Santa, family gift
+                      groups).
+                    </p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -92,14 +97,16 @@ const Projects = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Solo Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Neptune
+                    Grace Hopper Tribute Page
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    Tribute Page is a tribute page to Grace Murray Hopper, a
+                    pioneer in computer programming languages. Grace Hopper
+                    played a vital role in the development of COBOL and
+                    popularized the concept of machine-independent programming.
                   </p>
                 </div>
               </div>
@@ -113,14 +120,17 @@ const Projects = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Solo Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Holden Caulfield
+                    Note Taker
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    The goal of the project is to create a js file that connects
+                    the front-end with the back-end functionality. The note
+                    taker application opens with a entry screen. When the user
+                    clicks "get started", they are brought to an area to take
+                    notes, save notes and delete the notes.
                   </p>
                 </div>
               </div>
@@ -134,14 +144,18 @@ const Projects = () => {
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
-                    THE SUBTITLE
+                    Solo Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Alper Kamu
+                    SQL Employee Tracker
                   </h1>
                   <p className="leading-relaxed">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                    This project involved creating a command line user prompt to
+                    store data about a business. The inquirer prompt asked the
+                    end user to view all departments, view all roles, view all
+                    employees, add an employee, remove an employee, update and
+                    employee, etc. The end user is able to change the data based
+                    on the request and update the printed table of data.
                   </p>
                 </div>
               </div>
