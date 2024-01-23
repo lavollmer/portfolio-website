@@ -19,11 +19,11 @@ const NavBar = () => {
           </a>
         </nav>
         <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-          <span class="ml-3 text-xl">Laura Vollmer, MBA</span>
+          <span class="ml-3 text-2xl border-solid">Laura Vollmer, MBA</span>
         </a>
         <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
           <a href="https://www.linkedin.com/in/lvollmer/">
-            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-[#B6B6B5] rounded text-base mt-4 md:mt-0">
               LinkedIn
               <svg
                 fill="none"

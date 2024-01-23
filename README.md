@@ -21,5 +21,7 @@ Github Repo:https://github.com/lavollmer/portfolio-website
 
 Unsplash: https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfXbi9s
 Tailblocks: https://tailblocks.cc/
+React-Type-Animation: https://www.npmjs.com/package/react-type-animation
+Coolors
 
 ## Licenses

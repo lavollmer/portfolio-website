@@ -26,9 +26,9 @@ const Projects = () => {
                   src={robomurdermystery}
                   alt="Robot Murder Mystery Game"
                 />
-                <div className="rounded-md px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="rounded-md px-8 py-10 relative z-10 w-full border-4 border-[#B6B6B5] bg-white opacity-0 hover:opacity-100">
                   <a href="https://franklinbrad.github.io/robot-murder-mystery/">
-                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-[#625C47] mb-1">
                       Group Project
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -51,9 +51,9 @@ const Projects = () => {
                   className="rounded-md absolute inset-0 w-full h-full object-cover object-center"
                   src={regex}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-[#B6B6B5] bg-white opacity-0 hover:opacity-100">
                   <a href="https://gist.github.com/lavollmer/ce5334f65987446ca95d2a15bf8d53ae">
-                    <h2 className=" rounded-md tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 className=" rounded-md tracking-widest text-sm title-font font-medium text-[#625C47] mb-1">
                       Regex Tutorial
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -77,9 +77,9 @@ const Projects = () => {
                   className="rounded-md absolute inset-0 w-full h-full object-cover object-center"
                   src={giftify}
                 />
-                <div className=" rounded-md px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                <div className=" rounded-md px-8 py-10 relative z-10 w-full border-4 border-[#B6B6B5] bg-white opacity-0 hover:opacity-100">
                   <a href="https://gift-guide-020589889d66.herokuapp.com/">
-                    <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-[#625C47] mb-1">
                       Group Project
                     </h2>
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
