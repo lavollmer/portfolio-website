@@ -5,8 +5,11 @@ const About = () => {
     <div>
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
-          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
-            <p class="leading-relaxed text-lg">
+          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-left">
+            <h2 class="text-gray-900 font-large font-bold title-font tracking-wider text-md ">
+              ABOUT
+            </h2>
+            <p class=" text-lg">
               I am a full stack developer and healthcare professional with a
               passion for technology and web development. With 5-6 years of
               experience in healthcare roles and a background in coding, design,
