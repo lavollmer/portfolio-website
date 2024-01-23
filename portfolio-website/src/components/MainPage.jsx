@@ -3,7 +3,8 @@ import Background from "../assets/background.png";
 
 const MainPage = () => {
   return (
-    <div className=" flex flex-row justify-center align-items ">
+    <div className="justify-center align-items ">
+      <h1 className="flex flex-row z-10">Creating beautiful websites</h1>
       <img
         loading="lazy"
         src={Background}

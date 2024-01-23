@@ -20,5 +20,6 @@ Github Repo:https://github.com/lavollmer/portfolio-website
 ## Credits
 
 Unsplash: https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfXbi9s
+Tailblocks: https://tailblocks.cc/
 
 ## Licenses
