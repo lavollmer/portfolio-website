@@ -23,5 +23,6 @@ Unsplash: https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfX
 Tailblocks: https://tailblocks.cc/
 React-Type-Animation: https://www.npmjs.com/package/react-type-animation
 Coolors
+FontAwesome Icons: https://fontawesome.com/icons/mug-saucer?f=classic&s=solid
 
 ## Licenses
