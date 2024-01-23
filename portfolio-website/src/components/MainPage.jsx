@@ -5,7 +5,12 @@ import { TypeAnimation } from "react-type-animation";
 const MainPage = () => {
   return (
     <div className="flex flex-row justify-center align-items">
-      <div className="relative font-bold">
+      <img
+        loading="lazy"
+        src={Background}
+        className=" object-center w-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
+      />
+      <div className="absolute z-10 text-black text-2xl font-bold p-4 mt-40">
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
@@ -23,12 +28,11 @@ const MainPage = () => {
           style={{ fontSize: "2em", display: "inline-block" }}
           repeat={Infinity}
         />
-
-        <img
+        {/* <img
           loading="lazy"
           src={Background}
           className=" object-center w-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
-        />
+        /> */}
       </div>
     </div>
   );
