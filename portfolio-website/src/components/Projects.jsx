@@ -2,6 +2,7 @@ import React from "react";
 import robomurdermystery from "../assets/robomurdermystery.png";
 import giftify from "../assets/giftify.png";
 import regex from "../assets/regex.png";
+import Color from "../assets/colorimage.png";
 
 const Projects = () => {
   return (
@@ -23,7 +24,7 @@ const Projects = () => {
               <div className="flex relative">
                 <img
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
-                  src={robomurdermystery}
+                  src={Color}
                   alt="Robot Murder Mystery Game"
                 />
                 <div className="rounded-md px-8 py-10 relative z-10 w-full border-4 border-[#B6B6B5] bg-white opacity-0 hover:opacity-100">
@@ -47,9 +48,9 @@ const Projects = () => {
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
-                  alt="gallery"
-                  className="rounded-md absolute inset-0 w-full h-full object-cover object-center"
-                  src={regex}
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src={Color}
+                  alt="Robot Murder Mystery Game"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-[#B6B6B5] bg-white opacity-0 hover:opacity-100">
                   <a href="https://gist.github.com/lavollmer/ce5334f65987446ca95d2a15bf8d53ae">
@@ -73,9 +74,9 @@ const Projects = () => {
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
-                  alt="Giftify App"
-                  className="rounded-md absolute inset-0 w-full h-full object-cover object-center"
-                  src={giftify}
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
+                  src={Color}
+                  alt="Robot Murder Mystery Game"
                 />
                 <div className=" rounded-md px-8 py-10 relative z-10 w-full border-4 border-[#B6B6B5] bg-white opacity-0 hover:opacity-100">
                   <a href="https://gift-guide-020589889d66.herokuapp.com/">
