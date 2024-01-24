@@ -5,7 +5,7 @@ const Work = () => {
     <div>
       <section class="text-gray-600 body-font overflow-hidden" id="work">
         <div class="container px-5 py-24 mx-auto">
-          <h2 className="font-bold text-2xl text-black text-left mb-5">
+          <h2 className="font-bold text-2xl text-black text-center mb-5">
             WORK EXPERIENCE
           </h2>
           <div class="-my-8 divide-y-2 divide-gray-100">
@@ -20,7 +20,20 @@ const Work = () => {
               </div>
               <div class="md:flex-grow">
                 <p class="leading-relaxed ml-4 text-left">
-                  <li>Learned about CSS, HTML</li>
+                  <li>
+                    Frontend technologies: JavaScript programming language, HTML
+                    markup language, CSS, jQuery, Bootstrap, Chakra UI, AJAX
+                  </li>
+                  <li>
+                    Backend technologies: ReactJS, MySQL, Sequelize, MongoDB,
+                    Express, Handlebars,Node.js
+                  </li>
+                  <li>
+                    Other skills: POSTMAN, RESTful API Architecture, Git Version
+                    Control, MERN Stack, Heroku and Netifly deployment, Trello
+                    and Jira project management, product management, debugging,
+                    and responsive web design
+                  </li>
                 </p>
               </div>
             </div>
