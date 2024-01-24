@@ -77,30 +77,66 @@ const Work = () => {
             <div class="py-8 flex flex-wrap md:flex-nowrap">
               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span class="font-semibold title-font text-black text-left">
-                  University of Minnesota Coding Full Stack Bootcamp Student
+                  Manager of Clinical Content
                 </span>
                 <span class="mt-3 text-gray-500 text-sm text-left">
-                  Sep 2023 - Dec 2023
+                  Apr 2020 - Aug 2021
                 </span>
               </div>
               <div class="md:flex-grow">
                 <p class="leading-relaxed ml-4 text-left">
-                  <li>Learned about CSS, HTML</li>
+                  <li>
+                    Provided up-to-date and accurate protocol recommendations
+                    for healthfinch software by monitoring monthly changes in
+                    1,000+ medication profiles such as clinical guidelines,
+                    federal screening recommendations, FDA drug
+                    changes/approvals
+                  </li>
+                  <li>
+                    Collaborated with 20+ interdisciplinary team members such as
+                    customer success managers, technical support managers,
+                    software engineers, sales team and physicians to provide
+                    safe and effective medication and lab monitoring
+                    recommendations for patients utilized in software
+                  </li>
+                  <li>
+                    Demonstrated strong research, and drug information skills
+                    for content accuracy, evidence-based recommendations, and
+                    editorial content for all audiences
+                  </li>
+                  <li>
+                    Supported client-facing meetings regarding protocol
+                    consensus for software implementation at health- systems
+                    around the United States
+                  </li>
                 </p>
               </div>
             </div>
             <div class="py-8 flex flex-wrap md:flex-nowrap">
               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span class="font-semibold title-font text-black text-left">
-                  University of Minnesota Coding Full Stack Bootcamp Student
+                  Clinical Content Reviewer
                 </span>
                 <span class="mt-3 text-gray-500 text-sm text-left">
-                  Sep 2023 - Dec 2023
+                  Nov 2019 - Apr 2020
                 </span>
               </div>
               <div class="md:flex-grow">
                 <p class="leading-relaxed ml-4 text-left">
-                  <li>Learned about CSS, HTML</li>
+                  <li>
+                    Reviewed, proofread and updated 1,000+ written online
+                    articles for exceptional accuracy, scientific literature
+                    citations, and editorial content for all audiences
+                  </li>
+                  <li>
+                    Served as subject matter expert on clinical and healthcare
+                    topics for written content and content integrity
+                  </li>
+                  <li>
+                    Supported the preparation of clinical documents that are of
+                    high quality and prepared within timelines audiences
+                    (clinical, technical and non-technical professions)
+                  </li>
                 </p>
               </div>
             </div>
