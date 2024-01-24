@@ -3,13 +3,13 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-left">
-            <h2 class="text-gray-900 font-large font-bold title-font tracking-wider text-md ">
+      <section className="text-gray-600 body-font" id="about">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-left">
+            <h2 className="text-gray-900 font-large font-bold title-font tracking-wider text-md ">
               ABOUT
             </h2>
-            <p class=" text-lg">
+            <p className=" text-lg">
               I am a full stack developer and healthcare professional with a
               passion for technology and web development. With 5-6 years of
               experience in healthcare roles and a background in coding, design,
@@ -26,11 +26,11 @@ const About = () => {
               community of growth and learning while exploring new avenues for
               educational and professional development.
             </p>
-            <span class="inline-block h-1 w-10 rounded bg-black mt-8 mb-6"></span>
-            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
+            <span className="inline-block h-1 w-10 rounded bg-black mt-8 mb-6"></span>
+            <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               LAURA VOLLMER
             </h2>
-            <p class="text-gray-500">Full Stack Web Developer</p>
+            <p className="text-gray-500">Full Stack Web Developer</p>
           </div>
         </div>
       </section>
