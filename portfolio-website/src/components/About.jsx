@@ -1,15 +1,16 @@
 import React from "react";
+import Background from "../assets/Background.png";
 
 const About = () => {
   return (
     <div>
       <section className="text-gray-600 body-font" id="about">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-left">
+        <div className=" flex flex-row container px-5 py-24 mx-auto">
+          <div className="text-left p-20">
             <h2 className="text-gray-900 font-large font-bold title-font tracking-wider text-md ">
               ABOUT
             </h2>
-            <p className=" text-lg">
+            <p className="text-lg">
               I am a full stack developer and healthcare professional with a
               passion for technology and web development. With 5-6 years of
               experience in healthcare roles and a background in coding, design,
@@ -31,6 +32,13 @@ const About = () => {
               LAURA VOLLMER
             </h2>
             <p className="text-gray-500">Full Stack Web Developer</p>
+          </div>
+          <div className="flex flex-row object-scale-down">
+            <img
+              loading="lazy"
+              src={Background}
+              className=" object-scale-down w-full h-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
+            />
           </div>
         </div>
       </section>

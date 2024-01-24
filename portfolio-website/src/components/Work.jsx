@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font overflow-hidden">
+      <section class="text-gray-600 body-font overflow-hidden" id="work">
         <div class="container px-5 py-24 mx-auto">
           <h2 className="font-bold text-2xl text-black text-left mb-5">
             WORK EXPERIENCE

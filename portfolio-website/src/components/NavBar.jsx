@@ -5,9 +5,6 @@ const NavBar = () => {
     <header class="text-gray-600 body-font">
       <div class="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a class="mr-5 hover:text-gray-900" href="#home">
-            Home
-          </a>
           <a class="mr-5 hover:text-gray-900" href="#about">
             About
           </a>
@@ -17,7 +14,7 @@ const NavBar = () => {
           <a class="mr-5 hover:text-gray-900" href="#projects">
             Projects
           </a>
-          <a class="mr-5 hover:text-gray-900" href="#resume">
+          <a class="mr-5 hover:text-gray-900" href="#work">
             Work
           </a>
           <a class="hover:text-gray-900" href="#contact">
