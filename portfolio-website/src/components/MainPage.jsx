@@ -17,7 +17,7 @@ const MainPage = () => {
             sequence={[
               "Creative",
               2000,
-              "Coder",
+              "<coder>",
               2000,
               "Designer",
               2000,
