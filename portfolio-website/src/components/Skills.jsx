@@ -15,11 +15,19 @@ const Skills = () => {
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
               Technical Skills
             </h1>
-            {/* <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Technical skills 
-            </p> */}
+            <p class="lg:w-1/2 w-full leading-relaxed text-black">
+              Please check out my Github Profile and related skills.
+            </p>
+            <a
+              href="https://github.com/lavollmer"
+              className="flex flex-col justify-center items-center mt-3"
+            >
+              <button class="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-gray rounded text-lg">
+                Github
+              </button>
+            </a>
           </div>
-          <div class="flex flex-wrap -m-4">
+          <div class="flex flex-wrap -m-2">
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
@@ -29,148 +37,88 @@ const Skills = () => {
                   JavaScript
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  JavaScript is a powerful client-side scripting language used
+                  mainly for enhancing user interaction with webpages, and
+                  making the web more dynamic and responsive.
                 </p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
-                  {/* <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="6" cy="6" r="3"></circle>
-                    <circle cx="6" cy="18" r="3"></circle>
-                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                  </svg> */}
                   <GrReactjs />
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   ReactJS
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  ReactJS is a JavaScript library that efficiently manipulates
+                  the Document Object Model (DOM) to render web pages faster and
+                  create highly dynamic and responsive web applications.
                 </p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
-                  {/* <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg> */}
                   <FaNodeJs />
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  NodeJS
+                  Node.js
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  Node.js is a runtime environment that allows you to execute
+                  JavaScript code outside of a web browser, making it possible
+                  to build server-side applications using JavaScript.
                 </p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
-                  {/* <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                  </svg> */}
                   <SiCsswizardry />
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   CSS
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  Cascading Style Sheets is the language used to style web
+                  pages, controlling the design, layout, and display variations
+                  for different devices and screen sizes.
                 </p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
-                  {/* <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                  </svg> */}
                   <BsFiletypeHtml />
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   HTML
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  HTML, or HyperText Markup Language, is the standard language
+                  for creating web pages and web applications, defining the
+                  structure and layout of content.
                 </p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
-                  {/* <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg> */}
                   <BsPersonWorkspace />
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
                   Project Management
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
+                  Programming project management involves using Trello and
+                  Google Spreadsheets to organize tasks, and collaborate with
+                  the development team.
                 </p>
               </div>
             </div>
           </div>
-          <a
-            href="https://github.com/lavollmer"
-            className="flex flex-col justify-center items-center mt-16"
-          >
-            <button class="flex mt-16 text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-gray-500 rounded text-lg">
-              Github
-            </button>
-          </a>
         </div>
       </section>
     </div>
