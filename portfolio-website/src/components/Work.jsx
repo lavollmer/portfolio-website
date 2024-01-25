@@ -3,11 +3,14 @@ import React from "react";
 const Work = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font overflow-hidden" id="work">
+      <section class="text-gray-600 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto">
-          <h2 className="font-bold text-2xl text-black text-center mb-5">
-            WORK EXPERIENCE
-          </h2>
+          <h1
+            class="sm:text-3xl text-2xl font-medium title-font mb-6 text-gray-900"
+            id="work"
+          >
+            Work Experience
+          </h1>
           <div class="-my-8 divide-y-2 divide-gray-100">
             <div class="py-8 flex flex-wrap md:flex-nowrap">
               <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">

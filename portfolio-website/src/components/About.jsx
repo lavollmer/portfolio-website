@@ -1,5 +1,6 @@
 import React from "react";
 import Background from "../assets/Background.png";
+import Profile from "../assets/lauravolprofile.png";
 
 const About = () => {
   return (
@@ -42,11 +43,35 @@ const About = () => {
             <p className="text-gray-500">Full Stack Web Developer</p>
           </div>
           <div className="flex flex-row object-scale-down">
-            <img
+            {/* <img
               loading="lazy"
-              src={Background}
+              src={Profile}
               className=" object-scale-down w-full h-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
-            />
+            /> */}
+            <div className="relative w-40 h-40 overflow-hidden rounded-full">
+              <img
+                loading="lazy"
+                src={Profile}
+                className="object-cover w-full h-full"
+                alt="Profile Image"
+              />
+              <div className="absolute inset-0 flex items-center justify-center rounded-full">
+                <svg
+                  className="w-10 h-10 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  {/* <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                  /> */}
+                </svg>
+              </div>
+            </div>
           </div>
         </div>
       </section>
