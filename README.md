@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A portfolio website created with React.js, TailwindCSS and JavaScript.
+A portfolio website created with React.js, TailwindCSS and JavaScript. The website has a responsive design, easy to navigate and modern interface.
 
 ## Technical Requirements
 
