@@ -10,7 +10,8 @@ const Contact = () => {
               Contact
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Contact for more information.
+              Reach out to me on LINKEDIN or take a look at my GITHUB or send me
+              an email with the form below!
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -64,7 +65,7 @@ const Contact = () => {
               </div>
               <div className="p-2 w-full">
                 <button className="flex mx-auto text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-gray-500 rounded text-lg">
-                  Button
+                  Submit
                 </button>
               </div>
             </div>
