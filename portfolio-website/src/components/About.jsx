@@ -4,10 +4,10 @@ import Background from "../assets/Background.png";
 const About = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font" id="about">
+      <section className="text-gray-600 body-font">
         <div className=" flex flex-row container px-5 py-24 mx-auto">
-          <div className="text-left p-20">
-            <h2 className="text-gray-900 font-large font-bold title-font tracking-wider text-md ">
+          <div className="text-left p-20" id="about">
+            <h2 className="text-gray-900 font-large font-bold title-font tracking-wider text-md">
               ABOUT
             </h2>
             <br></br>

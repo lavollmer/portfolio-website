@@ -24,5 +24,6 @@ Tailblocks: https://tailblocks.cc/
 React-Type-Animation: https://www.npmjs.com/package/react-type-animation
 Coolors
 FontAwesome Icons: https://fontawesome.com/icons/mug-saucer?f=classic&s=solid
+ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
 
 ## Licenses

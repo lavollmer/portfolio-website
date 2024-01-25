@@ -1,6 +1,7 @@
 import React from "react";
 import Background from "../assets/background.png";
 import { TypeAnimation } from "react-type-animation";
+import ScrollToTop from "react-scroll-to-top";
 
 const MainPage = () => {
   return (
@@ -31,6 +32,7 @@ const MainPage = () => {
           />
         </div>
       </div>
+      <ScrollToTop smooth />
     </section>
   );
 };
