@@ -21,14 +21,14 @@ const Skills = () => {
             <p class="lg:w-1/2 w-full leading-relaxed text-black">
               Please check out my Github Profile and related skills.
             </p>
-            <a
+            {/* <a
               href="https://github.com/lavollmer"
               className="flex flex-col justify-center items-center mt-3"
             >
               <button class="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-gray rounded text-lg">
                 Github
               </button>
-            </a>
+            </a> */}
           </div>
           <div class="flex flex-wrap -m-2">
             <div class="xl:w-1/3 md:w-1/2 p-4">
