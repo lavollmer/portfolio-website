@@ -42,36 +42,13 @@ const About = () => {
             </h2>
             <p className="text-gray-500">Full Stack Web Developer</p>
           </div>
-          <div className="flex flex-row object-scale-down">
-            {/* <img
+          <div className="flex flex-row justify-center items-center ">
+            <img
               loading="lazy"
-              src={Profile}
-              className=" object-scale-down w-full h-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
-            /> */}
-            <div className="relative w-40 h-40 overflow-hidden rounded-full">
-              <img
-                loading="lazy"
-                src={Profile}
-                className="object-cover w-full h-full"
-                alt="Profile Image"
-              />
-              <div className="absolute inset-0 flex items-center justify-center rounded-full">
-                <svg
-                  className="w-10 h-10 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  {/* <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                  /> */}
-                </svg>
-              </div>
-            </div>
+              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              className="object-cover w-[70%] h-[40%]"
+              alt="Computer Coding Image"
+            />
           </div>
         </div>
       </section>
