@@ -4,6 +4,10 @@
 
 A portfolio website created with React.js, TailwindCSS and JavaScript. The website has a responsive design, easy to navigate and modern interface.
 
+## Table of Contents
+
+## Website Screenshots
+
 ## Technical Requirements
 
 Technical Requirements of the project include:
@@ -12,10 +16,15 @@ Technical Requirements of the project include:
 - Vite Project
 - JavaScript
 - React Icons
+- Coolors
+- React-Type-Animation
+- TailwindCSS
+- Netlify
 
 ## Website Links
 
 Github Repo:https://github.com/lavollmer/portfolio-website
+Netlifly:
 
 ## Credits
 
