@@ -16,9 +16,9 @@ A portfolio website created with React.js, TailwindCSS and JavaScript. The websi
 ## Website Screenshots
 
 ![Home Page](assets/images/screenshot.png)
-![alt text](assets/images/screenshot.png)
-![alt text](assets/images/screenshot.png)
-![alt text](assets/images/screenshot.png)
+![About Section](assets/images/screenshot.png)
+![Projects](assets/images/screenshot.png)
+![Work Experience](assets/images/screenshot.png)
 
 ## Technical Requirements
 
@@ -42,13 +42,13 @@ Netlifly:
 
 Third parties used during this project:
 
-Unsplash: https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfXbi9s
-Unsplash: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-Tailblocks: https://tailblocks.cc/
-React-Type-Animation: https://www.npmjs.com/package/react-type-animation
-Coolors
-FontAwesome Icons: https://fontawesome.com/icons/mug-saucer?f=classic&s=solid
-ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
+- Unsplash: https://unsplash.com/photos/white-desk-lamp-beside-green-plant-BlIhVfXbi9s
+- Unsplash: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+- Tailblocks: https://tailblocks.cc/
+- React-Type-Animation: https://www.npmjs.com/package/react-type-animation
+- Coolors
+- FontAwesome Icons: https://fontawesome.com/icons/mug-saucer?f=classic&s=solid
+- ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
 
 ## Licenses
 
