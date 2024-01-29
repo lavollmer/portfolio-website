@@ -22,8 +22,8 @@ const Work = () => {
                 </span>
               </div>
               <div className="md:flex-grow">
-                <p className="leading-relaxed ml-4 text-left">
-                  <ul>
+                <ul>
+                  <p className="leading-relaxed ml-4 text-left">
                     <li>
                       Frontend technologies: JavaScript programming language,
                       HTML markup language, CSS, jQuery, Bootstrap, Chakra UI,
@@ -39,8 +39,8 @@ const Work = () => {
                       deployment, Trello and Jira project management, product
                       management, debugging, and responsive web design
                     </li>
-                  </ul>
-                </p>
+                  </p>
+                </ul>
               </div>
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -53,8 +53,8 @@ const Work = () => {
                 </span>
               </div>
               <div className="md:flex-grow">
-                <p className="leading-relaxed ml-4 text-left">
-                  <ul>
+                <ul>
+                  <p className="leading-relaxed ml-4 text-left">
                     <li>
                       Developed a comprehensive Instagram social media strategy
                       with a small business account that included increasing
@@ -91,8 +91,8 @@ const Work = () => {
                       floral design through independent study and hands-on
                       experience
                     </li>
-                  </ul>
-                </p>
+                  </p>
+                </ul>
               </div>
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -105,8 +105,8 @@ const Work = () => {
                 </span>
               </div>
               <div className="md:flex-grow">
-                <p className="leading-relaxed ml-4 text-left">
-                  <ul>
+                <ul>
+                  <p className="leading-relaxed ml-4 text-left">
                     <li>
                       Provided up-to-date and accurate protocol recommendations
                       for healthfinch software by monitoring monthly changes in
@@ -131,8 +131,8 @@ const Work = () => {
                       consensus for software implementation at health- systems
                       around the United States
                     </li>
-                  </ul>
-                </p>
+                  </p>
+                </ul>
               </div>
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
@@ -145,8 +145,8 @@ const Work = () => {
                 </span>
               </div>
               <div className="md:flex-grow">
-                <p className="leading-relaxed ml-4 text-left">
-                  <ul>
+                <ul>
+                  <p className="leading-relaxed ml-4 text-left">
                     <li>
                       Reviewed, proofread and updated 1,000+ written online
                       articles for exceptional accuracy, scientific literature
@@ -161,8 +161,8 @@ const Work = () => {
                       of high quality and prepared within timelines audiences
                       (clinical, technical and non-technical professions)
                     </li>
-                  </ul>
-                </p>
+                  </p>
+                </ul>
               </div>
             </div>
           </div>
