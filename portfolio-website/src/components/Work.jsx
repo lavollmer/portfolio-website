@@ -3,26 +3,26 @@ import React from "react";
 const Work = () => {
   return (
     <div>
-      <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
+      <section className="text-gray-600 body-font overflow-hidden">
+        <div className="container px-5 py-24 mx-auto">
           <h1
-            class="sm:text-3xl text-2xl font-medium title-font mb-6 text-gray-900"
+            className="sm:text-3xl text-2xl font-medium title-font mb-6 text-gray-900"
             id="work"
           >
             Work Experience
           </h1>
-          <div class="-my-8 divide-y-2 divide-gray-100">
-            <div class="py-8 flex flex-wrap md:flex-nowrap">
-              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span class="font-semibold title-font text-black text-left">
+          <div className="-my-8 divide-y-2 divide-gray-100">
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-black text-left">
                   University of Minnesota Coding Full Stack Bootcamp Student
                 </span>
-                <span class="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-gray-500 text-sm text-left">
                   Sep 2023 - Dec 2023
                 </span>
               </div>
-              <div class="md:flex-grow">
-                <p class="leading-relaxed ml-4 text-left">
+              <div className="md:flex-grow">
+                <p className="leading-relaxed ml-4 text-left">
                   <ul>
                     <li>
                       Frontend technologies: JavaScript programming language,
@@ -43,17 +43,17 @@ const Work = () => {
                 </p>
               </div>
             </div>
-            <div class="py-8 flex flex-wrap md:flex-nowrap">
-              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span class="font-semibold title-font text-black text-left">
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-black text-left">
                   Floral Designer
                 </span>
-                <span class="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-gray-500 text-sm text-left">
                   Sep 2022 - June 2023
                 </span>
               </div>
-              <div class="md:flex-grow">
-                <p class="leading-relaxed ml-4 text-left">
+              <div className="md:flex-grow">
+                <p className="leading-relaxed ml-4 text-left">
                   <ul>
                     <li>
                       Developed a comprehensive Instagram social media strategy
@@ -95,17 +95,17 @@ const Work = () => {
                 </p>
               </div>
             </div>
-            <div class="py-8 flex flex-wrap md:flex-nowrap">
-              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span class="font-semibold title-font text-black text-left">
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-black text-left">
                   Manager of Clinical Content
                 </span>
-                <span class="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-gray-500 text-sm text-left">
                   Apr 2020 - Aug 2021
                 </span>
               </div>
-              <div class="md:flex-grow">
-                <p class="leading-relaxed ml-4 text-left">
+              <div className="md:flex-grow">
+                <p className="leading-relaxed ml-4 text-left">
                   <ul>
                     <li>
                       Provided up-to-date and accurate protocol recommendations
@@ -135,17 +135,17 @@ const Work = () => {
                 </p>
               </div>
             </div>
-            <div class="py-8 flex flex-wrap md:flex-nowrap">
-              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span class="font-semibold title-font text-black text-left">
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-black text-left">
                   Clinical Content Reviewer
                 </span>
-                <span class="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-gray-500 text-sm text-left">
                   Nov 2019 - Apr 2020
                 </span>
               </div>
-              <div class="md:flex-grow">
-                <p class="leading-relaxed ml-4 text-left">
+              <div className="md:flex-grow">
+                <p className="leading-relaxed ml-4 text-left">
                   <ul>
                     <li>
                       Reviewed, proofread and updated 1,000+ written online
