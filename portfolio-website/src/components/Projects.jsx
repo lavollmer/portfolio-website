@@ -12,13 +12,17 @@ const Projects = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-5" id="projects">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 mt-4 text-gray-900">
               Projects
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
               Coding Projects that utilize JavaScript, HTML, CSS, ChakraUI,
               TailwindCSS, and much more. Projects listed include group
               collaborations, solo coding and various skills are represented.
+            </p>
+            <p className="text-black font-bold p-2 text-xl">
+              Please hover each box to learn more or select the project to bring
+              you to the website!
             </p>
           </div>
           <div className="flex flex-wrap -m-4">

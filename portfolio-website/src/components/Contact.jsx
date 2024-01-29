@@ -10,7 +10,7 @@ const Contact = () => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Contact
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black font-bold">
               Reach out to me on
               <a
                 href="https://www.linkedin.com/in/lvollmer/"
@@ -28,7 +28,9 @@ const Contact = () => {
               or send me an email with the form below!
             </p>
             <div className=" p-2 w-full leading-relaxed text-black">
-              <p>Located in Minneapolis, Minnesota | Open to Remote (USA)</p>
+              <p className="font-bold">
+                Located in Minneapolis, Minnesota | Open to Remote (USA)
+              </p>
             </div>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">

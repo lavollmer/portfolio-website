@@ -7,8 +7,11 @@ const About = () => {
     <div>
       <section className="text-gray-600 body-font">
         <div className=" flex flex-row container px-5 py-24 mx-auto sm:p-2">
-          <div className="text-left p-20" id="about">
-            <h2 className="text-gray-900 font-large font-bold title-font tracking-wider text-md">
+          <div className="text-left p-20">
+            <h2
+              className="text-gray-900 font-large font-bold title-font tracking-wider text-md pt-10"
+              id="about"
+            >
               ABOUT
             </h2>
             <br></br>

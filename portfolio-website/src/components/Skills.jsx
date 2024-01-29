@@ -16,7 +16,7 @@ const Skills = () => {
             className="flex flex-wrap w-full mb-5 flex-col items-center text-center"
             id="skills"
           >
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 mt-4 text-gray-900">
               Technical Skills
             </h1>
             <p className="p-2 leading-relaxed text-black">
@@ -29,7 +29,7 @@ const Skills = () => {
             </p>
             <a
               href="https://github.com/lavollmer"
-              classNameName="flex flex-col justify-center items-center mt-3"
+              className="flex flex-col justify-center items-center mt-3"
             >
               <button className="flex flex-row align-items text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#366039] rounded text-lg">
                 <FaGithubSquare size={26} />
@@ -39,7 +39,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-wrap -m-2">
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="border border-black p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
                   <IoLogoJavascript />
                 </div>
@@ -54,7 +54,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="border border-black p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
                   <GrReactjs />
                 </div>
@@ -69,7 +69,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="border border-black p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
                   <FaNodeJs />
                 </div>
@@ -84,7 +84,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="border border-black p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
                   <SiCsswizardry />
                 </div>
@@ -99,7 +99,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="border border-black p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
                   <BsFiletypeHtml />
                 </div>
@@ -114,7 +114,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+              <div className="border border-black p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-[#838871] text-white mb-4">
                   <BsPersonWorkspace />
                 </div>
