@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineBulb } from "react-icons/ai";
-import { GrLinkedin } from "react-icons/gr";
+import { FaLinkedin } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 
 const Footer = () => {
@@ -16,21 +16,21 @@ const Footer = () => {
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2024 Copyright
           </p>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <span className="flex flex-row space-between sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start text-align:center">
             <a
               href="https://www.linkedin.com/in/lvollmer/"
               aria-label="LinkedIn Link"
-              className="text-black"
+              className="text-black flex flex-col justify-content items-center m-2"
             >
-              <GrLinkedin size={24} />
+              <FaLinkedin size={28} />
               LinkedIn
             </a>
             <a
               href="https://github.com/lavollmer"
               aria-label="Github Link"
-              className="ml-3 text-black"
+              className=" text-black flex flex-col justify-content items-center m-2"
             >
-              <FaGithubSquare size={26} /> Github
+              <FaGithubSquare size={28} /> Github
             </a>
           </span>
         </div>
