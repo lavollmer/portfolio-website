@@ -14,7 +14,12 @@ const Contact = () => {
     e.preventDefault();
     //form.current represents the data to be sent
     emailjs
-      .sendForm("SERVICE ID", "TEMPLATE ID", form.current, "public key")
+      .sendForm(
+        "service_qkcv0rh",
+        "template_r8nnexl",
+        form.current,
+        "B35w6zrADtq1_4Mpk"
+      )
       .then(
         (result) => {
           console.log(result.text);
