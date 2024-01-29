@@ -1,6 +1,4 @@
 import React from "react";
-import Background from "../assets/Background.png";
-import Profile from "../assets/lauravolprofile.png";
 
 const About = () => {
   return (
