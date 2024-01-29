@@ -12,23 +12,28 @@ const Skills = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div
-            className="flex flex-wrap w-full mb-20 flex-col items-center text-center"
+            className="flex flex-wrap w-full mb-5 flex-col items-center text-center"
             id="skills"
           >
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900">
               Technical Skills
             </h1>
-            <p className="lg:w-1/2 w-full leading-relaxed text-black">
-              Please check out my Github Profile and related skills.
+            <p className="p-2 leading-relaxed text-black">
+              I am a dedicated and passionate professional with a strong
+              background in various technical domains.
             </p>
-            {/* <a
+            <p className=" p-2 w-full leading-relaxed text-black">
+              Please review my Github profile for demonstration of skills listed
+              below.
+            </p>
+            <a
               href="https://github.com/lavollmer"
               classNameName="flex flex-col justify-center items-center mt-3"
             >
-              <button className="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-gray rounded text-lg">
+              <button className="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#366039] rounded text-lg">
                 Github
               </button>
-            </a> */}
+            </a>
           </div>
           <div className="flex flex-wrap -m-2">
             <div className="xl:w-1/3 md:w-1/2 p-4">
