@@ -1,18 +1,39 @@
 import React from "react";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
   return (
     <>
-      <section className="text-gray-600 body-font relative" id="contact">
+      <section
+        className=" flex content-center text-gray-600 body-font relative"
+        id="contact"
+      >
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Contact
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Reach out to me on LINKEDIN or take a look at my GITHUB or send me
-              an email with the form below!
+              Reach out to me on
+              <a
+                href="https://www.linkedin.com/in/lvollmer/"
+                className="font-bold text-blue-500"
+              >
+                LinkedIn
+              </a>
+              or take a look at my
+              <a
+                href="https://github.com/lavollmer"
+                className="font-bold text-blue-500"
+              >
+                Github
+              </a>
+              or send me an email with the form below!
             </p>
+            <div className="flex flex-row align-content:center">
+              <FaLocationDot />
+              <p>Minneapolis, Minnesota</p>
+            </div>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">

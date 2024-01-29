@@ -40,7 +40,9 @@ const About = () => {
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               LAURA VOLLMER
             </h2>
-            <p className="text-gray-500">Full Stack Web Developer</p>
+            <p className="text-gray-500">
+              Minneapolis, Minnesota | Full Stack Web Developer
+            </p>
           </div>
           <div className="flex flex-row justify-center items-center ">
             <img
