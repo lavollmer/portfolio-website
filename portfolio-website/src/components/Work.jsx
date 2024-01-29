@@ -24,16 +24,16 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <li>
+                    <li className="list-disc list-inside">
                       Frontend technologies: JavaScript programming language,
                       HTML markup language, CSS, jQuery, Bootstrap, Chakra UI,
                       AJAX
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Backend technologies: ReactJS, MySQL, Sequelize, MongoDB,
                       Express, Handlebars,Node.js
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Other skills: POSTMAN, RESTful API Architecture, Git
                       Version Control, MERN Stack, Heroku and Netifly
                       deployment, Trello and Jira project management, product
@@ -55,41 +55,37 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <li>
-                      Developed a comprehensive Instagram social media strategy
-                      with a small business account that included increasing
-                      followers, creating high-quality content and driving
-                      engagement (i.e., February 2023 results: created 131
-                      Instagram content pieces, reached 1,558 accounts (+79%
-                      increase), increased followers by 11.3%, 6,600
-                      impressions, and 143 profile visits)
+                    <li className="list-disc list-inside">
+                      Expertise in Visual Design: Developed a comprehensive
+                      Instagram social media strategy with a small business
+                      account, creating high-quality floral content to drive
+                      engagement and increase followers.Acquired comprehensive
+                      knowledge and skills in floral design, bringing an eye for
+                      aesthetics and attention to detail to web design projects.
                     </li>
-                    <li>
-                      Published 400+ floral designs, behind the scenes and shop
-                      related Instagram content with high-quality images and
-                      videos (utilizing iPhone, Adobe Lightroom, Canva graphics,
-                      Facebook Business Meta Suite, personal content calendar,
-                      etc.)
+                    <li className="list-disc list-inside">
+                      Flawless Content Creation: Published hundreds of floral
+                      designs and related content on Instagram, utilizing
+                      high-quality images and videos to showcase creativity and
+                      craftsmanship.{" "}
                     </li>
-                    <li>
-                      Entered 500+ customers’ data into floral industry-specific
-                      software with exceptional accuracy and fast typing for
-                      delivery, pricing and customer satisfaction
+                    <li className="list-disc list-inside">
+                      Data Entry and Accuracy: Entered customer data into
+                      industry-specific software with exceptional accuracy,
+                      ensuring seamless integration between floral design and
+                      web systems.
                     </li>
-                    <li>
-                      Communicated with 1,000+ customers via phone, online or
-                      in-person on ordering, floral design, delivery,
-                      purchasing, and general business questions
+                    <li className="list-disc list-inside">
+                      Exceptional Customer Service: Communicated with a wide
+                      range of customers on ordering, design, and general
+                      business questions, providing professional and courteous
+                      service both in-person and online.
                     </li>
-                    <li>
-                      Provided professional and courteous customer service to
-                      1,000+ customers (corporations, funeral homes, schools,
-                      venues, individuals, etc.)
-                    </li>
-                    <li>
-                      Acquired comprehensive knowledge, training and skills in
-                      floral design through independent study and hands-on
-                      experience
+                    <li className="list-disc list-inside">
+                      Collaboration and Adaptability: Collaborated with
+                      designers and developers to seamlessly integrate frontend
+                      and backend components, ensuring optimal user experience
+                      across different devices and screen sizes.
                     </li>
                   </p>
                 </ul>
@@ -107,26 +103,26 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <li>
+                    <li className="list-disc list-inside">
                       Provided up-to-date and accurate protocol recommendations
                       for healthfinch software by monitoring monthly changes in
                       1,000+ medication profiles such as clinical guidelines,
                       federal screening recommendations, FDA drug
                       changes/approvals
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Collaborated with 20+ interdisciplinary team members such
                       as customer success managers, technical support managers,
                       software engineers, sales team and physicians to provide
                       safe and effective medication and lab monitoring
                       recommendations for patients utilized in software
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Demonstrated strong research, and drug information skills
                       for content accuracy, evidence-based recommendations, and
                       editorial content for all audiences
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Supported client-facing meetings regarding protocol
                       consensus for software implementation at health- systems
                       around the United States
@@ -147,16 +143,16 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <li>
+                    <li className="list-disc list-inside">
                       Reviewed, proofread and updated 1,000+ written online
                       articles for exceptional accuracy, scientific literature
                       citations, and editorial content for all audiences
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Served as subject matter expert on clinical and healthcare
                       topics for written content and content integrity
                     </li>
-                    <li>
+                    <li className="list-disc list-inside">
                       Supported the preparation of clinical documents that are
                       of high quality and prepared within timelines audiences
                       (clinical, technical and non-technical professions)

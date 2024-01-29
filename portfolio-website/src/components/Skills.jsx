@@ -5,6 +5,7 @@ import { FaNodeJs } from "react-icons/fa6";
 import { SiCsswizardry } from "react-icons/si";
 import { BsFiletypeHtml } from "react-icons/bs";
 import { BsPersonWorkspace } from "react-icons/bs";
+import { FaGithubSquare } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -31,6 +32,7 @@ const Skills = () => {
               classNameName="flex flex-col justify-center items-center mt-3"
             >
               <button className="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#366039] rounded text-lg">
+                <FaGithubSquare size={26} />
                 Github
               </button>
             </a>
