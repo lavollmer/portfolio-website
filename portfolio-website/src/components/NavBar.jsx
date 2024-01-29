@@ -21,11 +21,11 @@ const NavBar = () => {
             Contact
           </a>
         </nav>
-        <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-          <span className="ml-3 text-2xl border-solid font-family-arial">
-            Laura Vollmer
-          </span>
-        </a>
+        {/* <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0"> */}
+        <span className="ml-3 text-2xl border-solid font-family-arial text-black">
+          Laura Vollmer
+        </span>
+        {/* </a> */}
         <div className="flex lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-5">
           <a href="https://www.linkedin.com/in/lvollmer/">
             <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-[#BABf7B2] rounded text-base mt-4 md:mt-0">
@@ -33,9 +33,9 @@ const NavBar = () => {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-4 h-4 ml-1"
                 viewBox="0 0 24 24"
               >
