@@ -6,13 +6,13 @@ const About = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <div className=" flex flex-row container px-5 py-24 mx-auto">
+        <div className=" flex flex-row container px-5 py-24 mx-auto sm:p-2">
           <div className="text-left p-20" id="about">
             <h2 className="text-gray-900 font-large font-bold title-font tracking-wider text-md">
               ABOUT
             </h2>
             <br></br>
-            <p className="text-lg">
+            <p className="text-base sm:text-sm lg:text-lg">
               I am a full stack developer and healthcare professional with a
               passion for technology and web development. With 5-6 years of
               experience in healthcare roles and a background in coding, design,
@@ -21,7 +21,7 @@ const About = () => {
               problem-solving and the ever-expanding realm of technology.
             </p>
             <br></br>
-            <p className="text-lg">
+            <p className="text-base sm:text-sm lg:text-lg">
               Specializing in front-end and back-end web development, I combine
               technical skills with a keen eye for design to deliver exceptional
               user experiences. With recent proficiency in JavaScript, ReactJS,
@@ -30,7 +30,7 @@ const About = () => {
               captivating websites.
             </p>
             <br></br>
-            <p className="text-lg">
+            <p className="text-base sm:text-sm lg:text-lg">
               I eagerly seek opportunities to connect, network, and collaborate
               with like-minded individuals, fostering a community of growth and
               learning while exploring new avenues for educational and
