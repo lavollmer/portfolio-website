@@ -17,10 +17,18 @@ const Footer = () => {
             © 2024 Copyright
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a href="https://www.linkedin.com/in/lvollmer/" class="text-black">
+            <a
+              href="https://www.linkedin.com/in/lvollmer/"
+              aria-label="LinkedIn Link"
+              class="text-black"
+            >
               <GrLinkedin size={24} />
             </a>
-            <a href="https://github.com/lavollmer" class="ml-3 text-black">
+            <a
+              href="https://github.com/lavollmer"
+              aria-label="Github Link"
+              class="ml-3 text-black"
+            >
               <FaGithubSquare size={26} />
             </a>
           </span>
