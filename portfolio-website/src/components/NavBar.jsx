@@ -28,7 +28,7 @@ const NavBar = () => {
         {/* </a> */}
         <div className="flex lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-5">
           <a href="https://www.linkedin.com/in/lvollmer/">
-            <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-[#BABf7B2] rounded text-base mt-4 md:mt-0">
+            <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-900 rounded text-base mt-4 md:mt-0">
               LinkedIn
               <svg
                 fill="none"
@@ -44,7 +44,7 @@ const NavBar = () => {
             </button>
           </a>
           <a href="https://github.com/lavollmer">
-            <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-[#BAB7B2] rounded text-base mt-4 md:mt-0">
+            <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-900  rounded text-base mt-4 md:mt-0">
               Github
               <svg
                 fill="none"
