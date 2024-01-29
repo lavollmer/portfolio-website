@@ -5,12 +5,10 @@ const Work = () => {
     <div>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
-          <h1
-            className="sm:text-3xl text-2xl font-medium title-font mb-6 text-gray-900"
-            id="work"
-          >
+          <h1 className="sm:text-3xl text-2xl font-medium text-black" id="work">
             Work Experience
           </h1>
+          <p className="font-bold text-black">LAURA VOLLMER, PharmD, MBA</p>
           <div className="-my-8 divide-y-2 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">

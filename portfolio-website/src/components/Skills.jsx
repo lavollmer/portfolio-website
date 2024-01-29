@@ -33,7 +33,7 @@ const Skills = () => {
             >
               <button className="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#366039] rounded text-lg">
                 <FaGithubSquare size={26} />
-                Github
+                <span> Laura Vollmer Github</span>
               </button>
             </a>
           </div>
