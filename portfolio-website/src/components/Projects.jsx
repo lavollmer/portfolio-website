@@ -11,11 +11,11 @@ const Projects = () => {
     <>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20" id="projects">
+          <div className="flex flex-col text-center w-full mb-5" id="projects">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Projects
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
               Coding Projects that utilize JavaScript, HTML, CSS, ChakraUI,
               TailwindCSS, and much more. Projects listed include group
               collaborations, solo coding and various skills are represented.
@@ -107,7 +107,7 @@ const Projects = () => {
                   alt="Grace Hopper Information Page"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-[#625C47] mb-1">
                     Solo Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -130,7 +130,7 @@ const Projects = () => {
                   alt="Note Taking Application"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-[#625C47] mb-1">
                     Solo Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
@@ -153,7 +153,7 @@ const Projects = () => {
                   alt="SQL Employee Tracker"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-[#625C47] mb-1">
                     Solo Project
                   </h2>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">

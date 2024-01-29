@@ -31,9 +31,9 @@ const Skills = () => {
               href="https://github.com/lavollmer"
               classNameName="flex flex-col justify-center items-center mt-3"
             >
-              <button className="flex text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#366039] rounded text-lg">
+              <button className="flex flex-row align-items text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#366039] rounded text-lg">
                 <FaGithubSquare size={26} />
-                <span> Laura Vollmer Github</span>
+                <span>Laura Vollmer Github</span>
               </button>
             </a>
           </div>
