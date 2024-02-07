@@ -59,10 +59,10 @@ const Skills = () => {
                   <GrReactjs />
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">
-                  ReactJS
+                  React.js
                 </h2>
                 <p className="leading-relaxed text-base">
-                  ReactJS is a JavaScript library that efficiently manipulates
+                  React.js is a JavaScript library that efficiently manipulates
                   the Document Object Model (DOM) to render web pages faster and
                   create highly dynamic and responsive web applications.
                 </p>

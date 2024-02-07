@@ -28,19 +28,15 @@ const Work = () => {
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
                     <li className="list-disc list-inside">
-                      Frontend technologies: JavaScript programming language,
-                      HTML markup language, CSS, jQuery, Bootstrap, Chakra UI,
-                      AJAX
-                    </li>
-                    <li className="list-disc list-inside">
-                      Backend technologies: ReactJS, MySQL, Sequelize, MongoDB,
-                      Express, Handlebars,Node.js
-                    </li>
-                    <li className="list-disc list-inside">
-                      Other skills: POSTMAN, RESTful API Architecture, Git
-                      Version Control, MERN Stack, Heroku and Netifly
-                      deployment, Trello and Jira project management, product
-                      management, debugging, and responsive web design
+                      JavaScript, React.js, RESTful web services, JSON/XML,
+                      Version Control (Git, GitHub), relational databases
+                      concepts, interdisciplinary team collaboration,
+                      collaborative development practices (including GitHub
+                      Action, pull requests, and code review), HTML, CSS,
+                      Tailwind CSS, Vite, Agile development principles, jQuery,
+                      Bootstrap, Chakra UI, MySQL, Sequelize, MongoDB, Express,
+                      Node.js, Git Version Control, MERN Stack, POSTMAN, Heroku
+                      and Netifly deployment, and Trello and Jira Software
                     </li>
                   </p>
                 </ul>
