@@ -6,14 +6,15 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
-import Header from "./components/Header";
+
+import NavBar from "./components/NavBar";
 
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Header />
+      <NavBar />
       <MainPage />
       <About />
       <Skills />
