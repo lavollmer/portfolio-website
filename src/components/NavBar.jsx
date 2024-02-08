@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex flex-col h-screen bg-black z-20">
+      <div>
         {isMenuOpen ? (
           <nav
             className={`fixed top-0 left-0 h-screen bg-black w-64 ${
