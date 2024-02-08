@@ -8,7 +8,7 @@ const Header = () => {
           Laura Vollmer
         </span>
       </div>
-      <div className="flex p-1 lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-5">
+      <div className="flex p-1 lg:w-2/5 inline-flex justify-end ml-5 lg:ml-0 space-x-5">
         <a href="https://www.linkedin.com/in/lvollmer/">
           <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-900 rounded text-base mt-4 md:mt-0">
             LinkedIn
