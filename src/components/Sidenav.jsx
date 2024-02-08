@@ -27,7 +27,7 @@ function Sidenav() {
         {/* anything above medium breakpoint is hidden */}
         <AiOutlineMenu
           onClick={handleNav}
-          className="absolute top-4 right-4 z-[99] md:hidden"
+          className="absolute top-4 right-2 z-[99] md:hidden"
         />
         {/* if nav is truthy will then display the following below */}
         {nav ? (
