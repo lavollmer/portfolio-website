@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <>
       <header className="flex text-gray-600 body-font space-x-5">
-        <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div>
           {/* when the hamburger icon is clicked on it will call the toggleMenu function */}
           <HamburgerIcon onClick={toggleMenu} />
           <nav
