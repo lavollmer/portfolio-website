@@ -17,14 +17,17 @@ const NavBar = () => {
 
   return (
     <>
-      <div>
+      {/* <div className="z-0">
         {isMenuOpen ? (
           <nav
             className={`fixed top-0 left-0 h-screen bg-black w-64 ${
               isMenuOpen ? "translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out`}
           >
-            <IoMdClose onClick={closeMenu} className="close-button" />
+            <IoMdClose
+              onClick={closeMenu}
+              className="close-button text-white"
+            />
             <div className="flex flex-col top-0 left-0">
               <a className="m-2 text-white" href="#about">
                 About
@@ -46,7 +49,7 @@ const NavBar = () => {
         ) : (
           <HamburgerIcon onClick={toggleMenu} />
         )}
-      </div>
+      </div> */}
     </>
   );
 };
