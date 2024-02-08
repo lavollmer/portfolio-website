@@ -14,14 +14,14 @@ const NavBar = () => {
     <>
       <header className="flex text-gray-600 body-font space-x-5">
         <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
+          {/* when the hamburger icon is clicked on it will call the toggleMenu function */}
+          <HamburgerIcon onClick={toggleMenu} />
           <nav
             // if isMenuOpen is true then will display block otherwise will be hidden via TailwindCSS code
             className={`fixed top-0 left-0 h-screen bg-gray-800 w-64 ${
               isMenuOpen ? "translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out`}
           >
-            {/* when the hamburger icon is clicked on it will call the toggleMenu function */}
-            <HamburgerIcon onClick={toggleMenu} />
             <a className="my-2" href="#about">
               About
             </a>
