@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex flex-row justify-content items-center">
+    <div className="flex flex-row justify-content space-evenly p-2">
       <div className="flex flex-row justify-content items-center">
         <span className="ml-3 p-2 text-3xl border-solid font-family-arial text-black font-bold">
           Laura Vollmer

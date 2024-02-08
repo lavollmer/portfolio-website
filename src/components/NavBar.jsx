@@ -13,7 +13,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex z-20">
         {isMenuOpen ? (
           <IoMdClose onClick={toggleMenu} />
         ) : (
