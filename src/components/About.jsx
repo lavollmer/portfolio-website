@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <section className="text-gray-600 body-font">
-        <div className=" flex flex-row container px-5 py-24 mx-auto md:p-2">
+        <div className=" flex flex-column lg:flex-row container px-5 py-24 mx-auto md:p-2">
           <div className="text-left lg:p-20">
             <h2
               className="text-gray-900 font-small md:font-large font-bold title-font tracking-wider text-md pt-10"
@@ -13,7 +13,7 @@ const About = () => {
               ABOUT
             </h2>
             <br></br>
-            <p className="text-base sm:text-sm lg:text-lg">
+            <p className="text-base sm:text-xs lg:text-lg">
               I am a full stack developer and healthcare professional with a
               passion for technology and web development. With 5-6 years of
               experience in healthcare roles and a background in coding, design,
@@ -22,7 +22,7 @@ const About = () => {
               problem-solving and the ever-expanding realm of technology.
             </p>
             <br></br>
-            <p className="text-base sm:text-sm lg:text-lg">
+            <p className="text-base sm:text-xs lg:text-lg">
               Specializing in front-end and back-end web development, I combine
               technical skills with a keen eye for design to deliver exceptional
               user experiences. With recent proficiency in JavaScript, React.js,
@@ -31,17 +31,17 @@ const About = () => {
               visually captivating websites.
             </p>
             <br></br>
-            <p className="text-base sm:text-sm lg:text-lg">
+            <p className="text-base sm:text-xs lg:text-lg">
               I eagerly seek opportunities to connect, network, and collaborate
               with like-minded individuals, fostering a community of growth and
               learning while exploring new avenues for educational and
               professional development.
             </p>
             <span className="inline-block h-1 w-10 rounded bg-black mt-8 mb-6"></span>
-            <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
+            <h2 className="text-gray-900 font-medium title-font tracking-wider sm:text-xs md:text-sm">
               LAURA VOLLMER
             </h2>
-            <p className="text-gray-500">
+            <p className="text-gray-500 sm:text-xs md:text-sm">
               Minneapolis, Minnesota | Full Stack Web Developer
             </p>
           </div>

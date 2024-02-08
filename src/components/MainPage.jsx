@@ -13,7 +13,7 @@ const MainPage = () => {
           className="z-0 object-center w-full h-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
           alt="Image of a desk and clock"
         />
-        <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black text-2xl font-bold p-4">
+        <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black sm:text-md lg:text-2xl font-bold p-4">
           <h1>I am a</h1>
           <TypeAnimation
             sequence={[
