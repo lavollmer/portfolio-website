@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <header className="flex text-gray-600 body-font space-x-5">
       <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <nav className="flex lg:w-2/5 flex-wrap items-center text-base text-md md:text-lg md:ml-auto p-1">
+        <nav className="flex lg:w-2/5 flex-wrap items-center text-base text-sm md:text-lg md:ml-auto p-1">
           <a className="mr-5 hover:text-gray-900" href="#about">
             About
           </a>
@@ -21,7 +21,7 @@ const NavBar = () => {
             Contact
           </a>
         </nav>
-        <span className="ml-3 p-2  sm:text-2xl lg:text-3xl border-solid font-family-arial text-black font-bold">
+        <span className="ml-3 p-2 text-3xl border-solid font-family-arial text-black font-bold">
           Laura Vollmer
         </span>
         <div className="flex p-1 lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-5">
