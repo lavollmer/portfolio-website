@@ -13,20 +13,24 @@ const NavBar = () => {
       <header className="flex text-gray-600 body-font space-x-5">
         <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
           <HamburgerIcon onClick={toggleMenu} />
-          <nav className={`menu ${isMenuOpen ? "open" : ""}`}>
-            <a className="mr-5 hover:text-gray-900" href="#about">
+          <nav
+            className={`menu ${
+              isMenuOpen ? "block" : "hidden"
+            } bg-gray-800 text-white p-4 flex flex-col items-center`}
+          >
+            <a className="my-2" href="#about">
               About
             </a>
-            <a className="mr-5 hover:text-gray-900" href="#skills">
+            <a className="my-2" href="#skills">
               Skills
             </a>
-            <a className="mr-5 hover:text-gray-900" href="#projects">
+            <a className="my-2" href="#projects">
               Projects
             </a>
-            <a className="mr-5 hover:text-gray-900" href="#work">
+            <a className="my-2" href="#work">
               Work
             </a>
-            <a className="hover:text-gray-900" href="#contact">
+            <a className="my-2" href="#contact">
               Contact
             </a>
           </nav>
