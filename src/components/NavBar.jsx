@@ -1,9 +1,15 @@
 import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavBar = () => {
   return (
     <header className="flex text-gray-600 body-font space-x-5">
       <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className="md:hidden">
+          <button className="outline-none">
+            <GiHamburgerMenu />
+          </button>
+        </div>
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base text-sm md:text-lg md:ml-auto p-1">
           <a className="mr-5 hover:text-gray-900" href="#about">
             About

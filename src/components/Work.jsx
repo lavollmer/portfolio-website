@@ -17,7 +17,7 @@ const Work = () => {
           <div className="-my-8 divide-y-2 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-black text-left text-sm lg:text-lg">
+                <span className="flex-wrap font-semibold title-font text-black text-left text-sm lg:text-lg">
                   University of Minnesota Coding Full Stack Bootcamp Student
                 </span>
                 <span className="mt-3 text-gray-500 text-xs md:text-sm text-left">
@@ -27,7 +27,7 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <ol className="list-disc list-inside text-xs md:text-sm">
+                    <ol className="list-disc list-inside text-sm">
                       JavaScript, React.js, RESTful web services, JSON/XML,
                       Version Control (Git, GitHub), relational databases
                       concepts, interdisciplinary team collaboration,
