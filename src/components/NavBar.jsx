@@ -12,7 +12,8 @@ const NavBar = () => {
 
   return (
     <>
-      <header className="flex text-gray-600 body-font space-x-5">
+      <header>
+        {/* className="flex text-gray-600 body-font space-x-5" */}
         <div>
           {/* when the hamburger icon is clicked on it will call the toggleMenu function */}
           <HamburgerIcon onClick={toggleMenu} />
@@ -22,19 +23,19 @@ const NavBar = () => {
               isMenuOpen ? "translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out`}
           >
-            <a className="my-2" href="#about">
+            <a className="my-2 text-white" href="#about">
               About
             </a>
-            <a className="my-2" href="#skills">
+            <a className="my-2 text-white" href="#skills">
               Skills
             </a>
-            <a className="my-2" href="#projects">
+            <a className="my-2 text-white" href="#projects">
               Projects
             </a>
-            <a className="my-2" href="#work">
+            <a className="my-2 text-white" href="#work">
               Work
             </a>
-            <a className="my-2" href="#contact">
+            <a className="my-2 text-white" href="#contact">
               Contact
             </a>
           </nav>
