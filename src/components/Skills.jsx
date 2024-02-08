@@ -16,14 +16,14 @@ const Skills = () => {
             className="flex flex-wrap w-full mb-5 flex-col items-center text-center"
             id="skills"
           >
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 mt-4 text-gray-900">
+            <h1 className=" text-2xl font-medium title-font mb-1 mt-4 text-gray-900">
               Technical Skills
             </h1>
-            <p className="p-2 leading-relaxed text-black">
+            <p className=" sm:text-m md:text-lg p-2 leading-relaxed text-black">
               I am a dedicated and passionate professional with a strong
               background in various technical domains.
             </p>
-            <p className=" p-2 w-full leading-relaxed text-black">
+            <p className="sm:text-m md:text-lg p-2 w-full leading-relaxed text-black">
               Please review my Github profile for demonstration of skills listed
               below.
             </p>

@@ -21,7 +21,7 @@ const NavBar = () => {
             Contact
           </a>
         </nav>
-        <span className="ml-3 p-2 sm:text-xl md:text-2xl lg:text-3xl border-solid font-family-arial text-black font-bold">
+        <span className="ml-3 p-2  sm:text-2xl lg:text-3xl border-solid font-family-arial text-black font-bold">
           Laura Vollmer
         </span>
         <div className="flex p-1 lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-5">
