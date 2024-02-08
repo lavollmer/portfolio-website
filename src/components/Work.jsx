@@ -5,22 +5,19 @@ const Work = () => {
     <div>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
-          <h1
-            className="sm:text-2xl text-2xl font-medium text-black p-2"
-            id="work"
-          >
+          <h1 className=" text-2xl font-medium text-black p-2" id="work">
             Work Experience
           </h1>
-          <p className="font-bold text-black p-2 mb-4 sm:text-m lg:text-xl">
+          <p className="font-bold text-black p-2 mb-4 text-xl">
             Laura Vollmer, PharmD, MBA
           </p>
           <div className="-my-8 divide-y-2 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="flex-wrap font-semibold title-font text-black text-left text-sm lg:text-lg">
+                <span className="flex-wrap font-semibold title-font text-black text-left text-lg">
                   University of Minnesota Coding Full Stack Bootcamp Student
                 </span>
-                <span className="mt-3 text-gray-500 text-xs md:text-sm text-left">
+                <span className="mt-3 text-gray-500 text-sm text-left">
                   Sep 2023 - Dec 2023
                 </span>
               </div>
