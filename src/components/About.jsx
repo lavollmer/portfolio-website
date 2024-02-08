@@ -7,7 +7,7 @@ const About = () => {
         <div className=" flex flex-row container px-5 py-24 mx-auto sm:p-2">
           <div className="text-left p-20">
             <h2
-              className="text-gray-900 font-large font-bold title-font tracking-wider text-md pt-10"
+              className="text-gray-900 font-small md:font-large font-bold title-font tracking-wider text-md pt-10"
               id="about"
             >
               ABOUT
@@ -25,10 +25,10 @@ const About = () => {
             <p className="text-base sm:text-sm lg:text-lg">
               Specializing in front-end and back-end web development, I combine
               technical skills with a keen eye for design to deliver exceptional
-              user experiences. With recent proficiency in JavaScript, ReactJS,
-              HTML, Chakra UI, Bootstrap, and CSS, I am focused on becoming a
-              proficient web developer and creating innovative, visually
-              captivating websites.
+              user experiences. With recent proficiency in JavaScript, React.js,
+              HTML, Chakra UI, Tailwind CSS, Bootstrap, and CSS, I am focused on
+              becoming a proficient web developer and creating innovative,
+              visually captivating websites.
             </p>
             <br></br>
             <p className="text-base sm:text-sm lg:text-lg">
