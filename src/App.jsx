@@ -13,9 +13,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="flex flex-row justify-content items-center space-evenly">
+      <div className="flex flex-row justify-content space-evenly md:p-2 ">
         <Header />
-        <NavBar className="z-50" />
+        <NavBar />
       </div>
       <MainPage />
       <About />
