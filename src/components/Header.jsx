@@ -1,4 +1,5 @@
 import React from "react";
+import Sidenav from "./Sidenav";
 
 const Header = () => {
   return (
@@ -41,6 +42,7 @@ const Header = () => {
             </svg>
           </button>
         </a>
+        <Sidenav />
       </div>
     </div>
   );
