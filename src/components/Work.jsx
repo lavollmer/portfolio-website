@@ -8,9 +8,7 @@ const Work = () => {
           <h1 className=" text-2xl font-medium text-black p-2" id="work">
             Work Experience
           </h1>
-          <p className="font-bold text-black p-2 mb-4 text-xl">
-            Laura Vollmer, PharmD, MBA
-          </p>
+          <p className="font-bold text-black p-2 mb-4 text-xl">Laura Vollmer</p>
           <div className="-my-8 divide-y-2 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -24,17 +22,10 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <ol className="list-disc list-inside text-sm">
-                      JavaScript, React.js, RESTful web services, JSON/XML,
-                      Version Control (Git, GitHub), relational databases
-                      concepts, interdisciplinary team collaboration,
-                      collaborative development practices (including GitHub
-                      Action, pull requests, and code review), HTML, CSS,
-                      Tailwind CSS, Vite, Agile development principles, jQuery,
-                      Bootstrap, Chakra UI, MySQL, Sequelize, MongoDB, Express,
-                      Node.js, Git Version Control, MERN Stack, POSTMAN, Heroku
-                      and Netifly deployment, and Trello and Jira Software
-                    </ol>
+                    <ul className="list-disc list-inside text-sm">
+                      A 24-week intensive full-time program focused on technical
+                      programming skills and project management
+                    </ul>
                   </p>
                 </ul>
               </div>

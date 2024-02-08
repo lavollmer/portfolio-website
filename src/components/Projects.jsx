@@ -20,9 +20,8 @@ const Projects = () => {
               TailwindCSS, and much more. Projects listed include group
               collaborations, solo coding and various skills are represented.
             </p>
-            <p className="text-black font-bold p-2 text-xl">
-              Please hover each box to learn more or select the project to bring
-              you to the website!
+            <p className="text-black font-bold p-2 sm:text-md md:text-xl">
+              Please select each box to learn more and bring you to the website!
             </p>
           </div>
           <div className="flex flex-wrap -m-4">

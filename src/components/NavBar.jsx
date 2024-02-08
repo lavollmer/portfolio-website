@@ -13,18 +13,21 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex z-20">
+      <div className="flex flex-col h-screen bg-gray-100 z-20">
         {isMenuOpen ? (
           <IoMdClose onClick={toggleMenu} />
         ) : (
           <HamburgerIcon onClick={toggleMenu} />
         )}
         <nav
-          className={`fixed top-0 left-0 h-screen bg-gray-800 w-64 ${
+          className={`fixed top-0 left-0 h-screen bg-green-800 w-64 ${
             isMenuOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >
           <div className="flex flex-col top-0 left-0">
+            <div className="flex items-center justify-center h-16 bg-blue-500">
+              <h1 className="text-white font-bold text-xl">Page Navigation</h1>
+            </div>
             <a className="m-2 text-white" href="#about">
               About
             </a>

@@ -45,7 +45,7 @@ const About = () => {
               Minneapolis, Minnesota | Full Stack Web Developer
             </p>
           </div>
-          <div className="flex sm:flex-column lg:flex-row justify-center items-center sm:p-5 ">
+          <div className="flex sm:flex-column md:flex-row justify-center items-center sm:tp-20 md:p-2 ">
             <img
               loading="lazy"
               src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
