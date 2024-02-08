@@ -13,8 +13,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <NavBar />
-      <Header />
+      <div className="flex flex-row">
+        <NavBar />
+        <Header />
+      </div>
       <MainPage />
       <About />
       <Skills />

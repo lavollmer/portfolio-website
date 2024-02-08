@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import HamburgerIcon from "../components/HamburgerIcon.jsx";
+import { IoMdClose } from "react-icons/io";
 
 const NavBar = () => {
   //isMenuOpen default useState is set to fale and create setIsMenuOpen function
@@ -13,12 +14,13 @@ const NavBar = () => {
   return (
     <>
       <header>
-        {/* className="flex text-gray-600 body-font space-x-5" */}
         <div>
-          {/* when the hamburger icon is clicked on it will call the toggleMenu function */}
-          <HamburgerIcon onClick={toggleMenu} />
+          {isMenuOpen ? (
+            <IoMdClose onClick={toggleMenu} />
+          ) : (
+            <HamburgerIcon onClick={toggleMenu} />
+          )}
           <nav
-            // if isMenuOpen is true then will display block otherwise will be hidden via TailwindCSS code
             className={`fixed top-0 left-0 h-screen bg-gray-800 w-64 ${
               isMenuOpen ? "translate-x-0" : "-translate-x-full"
             } transition-transform duration-300 ease-in-out`}
