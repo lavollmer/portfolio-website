@@ -20,25 +20,27 @@ const NavBar = () => {
           <HamburgerIcon onClick={toggleMenu} />
         )}
         <nav
-          className={`fixed top-0 left-0 h-screen bg-gray-800 w-64 ${
+          className={`fixed top-0 right-0 h-screen bg-gray-800 w-64 ${
             isMenuOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out`}
         >
-          <a className="my-2 text-white" href="#about">
-            About
-          </a>
-          <a className="my-2 text-white" href="#skills">
-            Skills
-          </a>
-          <a className="my-2 text-white" href="#projects">
-            Projects
-          </a>
-          <a className="my-2 text-white" href="#work">
-            Work
-          </a>
-          <a className="my-2 text-white" href="#contact">
-            Contact
-          </a>
+          <div className="flex flex-col top-0 left-0">
+            <a className="m-2 text-white" href="#about">
+              About
+            </a>
+            <a className="m-2 text-white" href="#skills">
+              Skills
+            </a>
+            <a className="m-2 text-white" href="#projects">
+              Projects
+            </a>
+            <a className="m-2 text-white" href="#work">
+              Work
+            </a>
+            <a className="m-2 text-white" href="#contact">
+              Contact
+            </a>
+          </div>
         </nav>
       </div>
     </>

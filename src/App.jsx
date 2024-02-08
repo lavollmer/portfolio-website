@@ -15,7 +15,7 @@ function App() {
     <>
       <div className="flex flex-row justify-content items-center space-evenly">
         <Header />
-        <NavBar />
+        <NavBar className="z-50" />
       </div>
       <MainPage />
       <About />
