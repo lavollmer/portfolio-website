@@ -2,10 +2,11 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
 import ColorBackground from "../assets/ColorBackground.jpg";
+import { FaDivide } from "react-icons/fa";
 
 const MainPage = () => {
   return (
-    <section id="home" className="min-h-screen">
+    <div id="home" className="main-page">
       <img
         loading="lazy"
         src={ColorBackground}
@@ -39,7 +40,7 @@ const MainPage = () => {
       {/* </div> */}
 
       <ScrollToTop smooth />
-    </section>
+    </div>
   );
 };
 
