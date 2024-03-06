@@ -1,27 +1,38 @@
 import React from "react";
-import Background from "../assets/Background.png";
+// import Background from "../assets/Background.png";
+import { NavLink } from "react-router-dom";
+import { MdOutlineWork } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiFillLinkedin } from "react-icons/ai";
+import { FaGithubSquare } from "react-icons/fa";
 
 const Navigation = () => {
   return (
     <div>
-      <nav>
+      {/* <nav>
         <div>
-          <Background />
+          <h1>LV</h1>
         </div>
-      </nav>
+      </nav> */}
       <div>
         <ul>
           <li>
-            <a href="/projects">Projects</a>
+            <NavLink to="/projects">
+              <MdOutlineWork />
+            </NavLink>
           </li>
           <li>
-            <a href="/skills">Skills</a>
+            <NavLink>
+              <AiFillLinkedin />
+            </NavLink>
           </li>
           <li>
-            <a href="/home">Home</a>
+            <NavLink>
+              <FaGithubSquare />
+            </NavLink>
           </li>
           <li>
-            <a href="/about">About</a>
+            <GiHamburgerMenu />
           </li>
         </ul>
       </div>
