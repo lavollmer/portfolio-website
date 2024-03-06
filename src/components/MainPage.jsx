@@ -2,7 +2,7 @@ import React from "react";
 import Background from "../assets/background.png";
 import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
-import ColorBackground from "../assets/ColorBackground.png";
+import ColorBackground from "../assets/ColorBackground.jpg";
 
 const MainPage = () => {
   return (

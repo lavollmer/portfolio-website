@@ -5,19 +5,19 @@ const NavBar = () => {
     <header className="flex text-gray-600 body-font space-x-5">
       <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto p-1">
-          <a className="mr-5 hover:text-gray-900" href="#about">
+          <a className="mr-5 hover:black-900" href="#about">
             Projects
           </a>
-          <a className="mr-5 hover:text-gray-900" href="#skills">
+          <a className="mr-5 hover:black-900" href="#skills">
             Skills
           </a>
-          <a className="mr-5 hover:text-gray-900" href="#projects">
+          <a className="mr-5 hover:black-900" href="#projects">
             About
           </a>
-          <a className="mr-5 hover:text-gray-900" href="#work">
+          <a className="mr-5 hover:black-900" href="#work">
             Work
           </a>
-          <a className="hover:text-gray-900" href="#contact">
+          <a className="hover:black-900" href="#contact">
             Contact
           </a>
         </nav>
