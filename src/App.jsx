@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="bg-cover h-screen w-screen bg-center" style={{backgroundImage: `url(${Background})`}} >
-          <Navigation className="absolute top-0"/>
+        <div className=" bg-cover h-screen w-screen bg-center" style={{backgroundImage: `url(${Background})`}} >
+          <Navigation />
           <MainPage />
         </div>
         <Projects />
