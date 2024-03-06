@@ -9,11 +9,11 @@ import { FaGithubSquare } from "react-icons/fa";
 const Navigation = () => {
   return (
     <div className="flex p-2">
-      {/* <nav>
+      <nav>
         <div>
           <h1>LV</h1>
         </div>
-      </nav> */}
+      </nav>
       <ul className="flex flex-row p-2">
         {/* <li>
           <NavLink to="/projects">
