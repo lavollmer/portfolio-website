@@ -8,34 +8,32 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="flex p-2">
       {/* <nav>
         <div>
           <h1>LV</h1>
         </div>
       </nav> */}
-      <div>
-        <ul>
-          <li>
-            <NavLink to="/projects">
-              <MdOutlineWork />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink>
-              <AiFillLinkedin />
-            </NavLink>
-          </li>
-          <li>
-            <NavLink>
-              <FaGithubSquare />
-            </NavLink>
-          </li>
-          <li>
-            <GiHamburgerMenu />
-          </li>
-        </ul>
-      </div>
+      <ul className="flex flex-row p-2">
+        {/* <li>
+          <NavLink to="/projects">
+            <MdOutlineWork />
+          </NavLink>
+        </li> */}
+        <li>
+          <GiHamburgerMenu />
+        </li>
+        <li>
+          <NavLink>
+            <AiFillLinkedin />
+          </NavLink>
+        </li>
+        <li>
+          <NavLink>
+            <FaGithubSquare />
+          </NavLink>
+        </li>
+      </ul>
     </div>
   );
 };
