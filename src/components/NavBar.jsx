@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto p-1">
           <a className="mr-5 hover:text-gray-900" href="#about">
-            About
+            Hello
           </a>
           <a className="mr-5 hover:text-gray-900" href="#skills">
             Skills
