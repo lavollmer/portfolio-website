@@ -14,7 +14,12 @@ const MainPage = () => {
         // overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
         alt="Image of a pink and black splash background"
       />
-      <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black text-2xl font-bold p-4">
+      <div className="absolute top-1/4 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  font-bold p-4">
+        <h1 className="text-4xl font-bold">
+          Laura <br /> Vollmer
+        </h1>
+      </div>
+      {/* <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black text-2xl font-bold p-4">
         <h1>I am a</h1>
         <TypeAnimation
           sequence={[
@@ -31,8 +36,8 @@ const MainPage = () => {
           speed={50}
           style={{ fontSize: "2em", display: "inline-block" }}
           repeat={Infinity}
-        />
-      </div>
+        /> */}
+      {/* </div> */}
 
       <ScrollToTop smooth />
     </section>
