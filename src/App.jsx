@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navigation />
-        <MainPage />
+        <Navigation className="z-0" />
+        <MainPage className="z-10" />
         <Projects />
         <Skills />
         <About />
