@@ -7,7 +7,7 @@ import NavBar from "./NavBar";
 
 const MainPage = () => {
   return (
-    <section id="home">
+    <section id="home" className="min-h-screen">
       <NavBar />
       <img
         loading="lazy"
