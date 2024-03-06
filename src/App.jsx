@@ -16,8 +16,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navigation className="z-0" />
-        <MainPage className="z-10" />
+        <div className="nav-main-container">
+          <Navigation className="nav-component"/>
+          <MainPage />
+        </div>
         <Projects />
         <Skills />
         <About />
