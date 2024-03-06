@@ -2,6 +2,7 @@ import React from "react";
 import Background from "../assets/background.png";
 import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
+import ColorBackground from "../assets/ColorBackground.png";
 
 const MainPage = () => {
   return (
@@ -9,7 +10,7 @@ const MainPage = () => {
       <div className="flex justify-center items-center">
         <img
           loading="lazy"
-          src={Background}
+          src={ColorBackground}
           className="z-0 object-center w-full h-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10 rounded-lg"
           alt="Image of a desk and clock"
         />
