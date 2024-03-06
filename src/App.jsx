@@ -5,10 +5,9 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
-import ColorBackground from "./assets/ColorBackground.jpg";
-import NavBar from "./components/NavBar";
 import { BrowserRouter } from "react-router-dom";
 import Navigation from "./components/Navigation";
+import Background from  "../src/assets/ColorBackground.jpg";
 
 import "./App.css";
 
@@ -16,8 +15,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="nav-main-container">
-          <Navigation className="nav-component"/>
+        <div className="bg-cover h-screen w-screen bg-center" style={{backgroundImage: `url(${Background})`}} >
+          <Navigation className="absolute top-0"/>
           <MainPage />
         </div>
         <Projects />
