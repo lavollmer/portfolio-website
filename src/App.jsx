@@ -5,6 +5,8 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Work from "./components/Work";
 import Skills from "./components/Skills";
+import ColorBackground from "./assets/ColorBackground.jpg";
+import NavBar from "./components/NavBar";
 
 import "./App.css";
 
