@@ -21,7 +21,6 @@ function App() {
           <Navigation />
           <MainPage />
         </div>
-        {/* <Projects /> */}
         <ProjectDisplay />
         <Skills />
         <About />

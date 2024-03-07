@@ -29,41 +29,45 @@ const Navigation = () => {
         {showMenu && (
           <animated.div
             style={sidebarAnimation}
-            className="absolute top-0 right-0 bg-white text-black w-1/3 h-screen"
+            className="absolute top-0 right-0 bg-white text-black w-1/4 h-screen"
           >
-            <button    onClick={() => setShowMenu(false)}>
+                        <button    onClick={() => setShowMenu(false)}>
               <AiOutlineClose size={30} />
             </button>
-            <nav className="text-2xl font-poppins m-5 font-bold">
+            <nav className="text-2xl font-poppins m-10 font-bold flex flex-col justify-between w-full">
               <ul>
-                <li>
-                  <NavLink to="/about">About</NavLink>
+              <li>
+                  <NavLink to="/project">PROJECTS</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/skills">Skills</NavLink>
+                  <NavLink to="/about">ABOUT</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/skills">SKILLS</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contact">CONTACT</NavLink>
                 </li>
               </ul>
             </nav>
+
           </animated.div>
         )}
         <li className="p-2">
-          <NavLink>
+        <a href="https://www.linkedin.com/in/lvollmer/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin
               size={40}
               className="hover:text-customColor hover:scale-110 transition duration-100"
             />
-          </NavLink>
+          </a>
         </li>
         <li className="p-2">
-          <NavLink>
+          <a href="https://github.com/lavollmer" target="_blank" rel="noopener noreferrer">
             <FaGithubSquare
               size={40}
               className="hover:text-customColor hover:scale-110 transition duration-100"
             />
-          </NavLink>
+          </a>
         </li>
       </ul>
     </div>

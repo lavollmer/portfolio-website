@@ -18,7 +18,7 @@ const MainPage = () => {
         <h1 className="text-8xl font-poppins">
           Software <br /> Developer.
         </h1>
-        <h2 className="text-4xl font-poppins mt-8">I like to create</h2>
+        <h2 className="text-4xl font-poppins mt-8">I love to create</h2>
         <TypeAnimation
           sequence={[
             "innovative",
@@ -40,14 +40,14 @@ const MainPage = () => {
         />
         <h2 className="text-4xl font-poppins">websites.</h2>
       </div>
-      <div className="absolute top-1/4 right-1/4 z-10 text-black  p-4">
+      {/* <div className="absolute top-1/4 right-1/4 z-10 text-black  p-4">
         <animated.div
           style={props}
           className="w-100 h-100 bg-white rounded-full shadow-lg"
         >
           <FaLaptopCode size={250} className="top-1/2 right-1/3 center"/>
         </animated.div>
-      </div>
+      </div> */}
 
       <ScrollToTop smooth />
     </div>
