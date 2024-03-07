@@ -41,7 +41,7 @@ const MainPage = () => {
       <div className="absolute top-1/2 right-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
         <animated.div
           style={props}
-          className="w-81 h-81 bg-white rounded-full shadow-lg"
+          className="w-100 h-100 bg-white rounded-full shadow-lg"
         >
           <FaLaptopCode size={250} className="top-1/2 right-1/3 center"/>
         </animated.div>
