@@ -6,10 +6,12 @@ import { FaLaptopCode } from "react-icons/fa";
 
 const MainPage = () => {
   const props = useSpring({
-    opacity: 2,
+    opacity: 1,
     marginTop: 0,
-    from: { opacity: 0, marginTop: -500 },
+    from: { opacity: 0, marginTop: -1000 },
+    config: { duration: 2000 },
   });
+
   return (
     <div id="home" className="main-page">
       <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
@@ -38,7 +40,7 @@ const MainPage = () => {
         />
         <h2 className="text-4xl font-poppins">websites.</h2>
       </div>
-      <div className="absolute top-1/2 right-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
+      <div className="absolute top-1/4 right-1/4 z-10 text-black  p-4">
         <animated.div
           style={props}
           className="w-100 h-100 bg-white rounded-full shadow-lg"
