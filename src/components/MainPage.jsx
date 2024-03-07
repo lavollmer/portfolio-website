@@ -6,32 +6,27 @@ import { FaDivide } from "react-icons/fa";
 const MainPage = () => {
   return (
     <div id="home" className="main-page">
-      <div className="absolute top-1/3 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
+      <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
         <h1 className="text-8xl font-poppins">
           Software <br /> Developer.
         </h1>
-        <h2 className="text-4xl font-poppins mt-5">I like to craft unique and fun experiences.</h2>
-      </div>
-
-      {/* <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black text-2xl  p-4">
-        <h1>I am a</h1>
+        <h2 className="text-4xl font-poppins mt-8">I like to create</h2>
         <TypeAnimation
           sequence={[
-            "Creative",
+            "innovative",
             2000,
-            "<coder>",
+            "inspiring",
             2000,
-            "Designer",
-            2000,
-            "Web Developer",
+            "user-friendly",
             2000,
           ]}
           wrapper="span"
           speed={50}
-          style={{ fontSize: "2em", display: "inline-block" }}
+          style={{ fontSize: "2em", display: "inline-block", color: "black", textDecoration: "bold"}}
           repeat={Infinity}
         /> 
-       </div> */}
+        <h2 className="text-4xl font-poppins">websites.</h2>
+       </div>
 
       <ScrollToTop smooth />
     </div>
