@@ -4,7 +4,10 @@ export default {
   extend: {
     fontFamily:{
       'poppins': ['Poppins', 'sans-serif']
-    }
+    },
+    colors: {
+      customColor: '#DD8BD8',
+    },
   },
   theme: {
     screens: {

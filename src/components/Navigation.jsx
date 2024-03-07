@@ -10,16 +10,16 @@ const Navigation = () => {
       <h1 className="text-3xl font-poppins p-10 font-bold">LAURA VOLLMER</h1>
       <ul className="flex flex-row right-0 p-10">
         <li className="p-2">
-          <GiHamburgerMenu size={40} className="hover:text-white-900 hover:scale-110 transition duration-100" />
+          <GiHamburgerMenu size={40} className="hover:text-customColor hover:scale-110 transition duration-100" />
         </li>
         <li className="p-2">
           <NavLink>
-            <AiFillLinkedin size={40} className="hover:text-white-900 hover:scale-110 transition duration-100"/>
+            <AiFillLinkedin size={40} className="hover:text-customColor hover:scale-110 transition duration-100"/>
           </NavLink>
         </li>
         <li className="p-2">
           <NavLink>
-            <FaGithubSquare size={40} className="hover:text-white-900 hover:scale-110 transition duration-100" />
+            <FaGithubSquare size={40} className="hover:text-customColor hover:scale-110 transition duration-100" />
           </NavLink>
         </li>
       </ul>
