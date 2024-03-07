@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
-import { FaDivide } from "react-icons/fa";
+
 
 const MainPage = () => {
   return (
