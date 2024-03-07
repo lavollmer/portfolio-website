@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import { BrowserRouter } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Background from  "../src/assets/ColorBackground.jpg";
+import ProjectDisplay from "./components/ProjectDisplay";
 
 import "./App.css";
 
@@ -19,7 +20,8 @@ function App() {
           <Navigation />
           <MainPage />
         </div>
-        <Projects />
+        {/* <Projects /> */}
+        <ProjectDisplay />
         <Skills />
         <About />
         <Work />
