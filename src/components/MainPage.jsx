@@ -6,7 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 const MainPage = () => {
   return (
     <div id="home" className="main-page">
-        <div className="absolute inset-40 bg-white opacity-70 z-10"></div>
+        <div className="absolute inset-y-0 right-0 w-1/3 bg-white opacity-60 z-10 "></div>
       <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
         <h1 className="text-8xl font-poppins">
           Software <br /> Developer.
