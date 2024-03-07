@@ -4,9 +4,15 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 import { useState } from "react";
+import { useSpring, animated } from "react-spring";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navigation = () => {
   const [showMenu, setShowMenu] = useState(false);
+
+  const sidebarAnimation = useSpring({
+    transform: showMenu ? `translateX(0)` : `translateX(100%)`,
+  });
 
   return (
     <div className="absolute top-0 flex flex-row justify-between w-full">
@@ -21,15 +27,27 @@ const Navigation = () => {
           </button>
         </li>
         {showMenu && (
-          <div className="absolute top-0 right-0 bg-customColor w-1/3 h-screen">
-            <nav>
+          <animated.div
+            style={sidebarAnimation}
+            className="absolute top-0 right-0 bg-white text-black w-1/3 h-screen"
+          >
+            <button    onClick={() => setShowMenu(false)}>
+              <AiOutlineClose size={30} />
+            </button>
+            <nav className="text-2xl font-poppins m-5 font-bold">
               <ul>
                 <li>
                   <NavLink to="/about">About</NavLink>
                 </li>
+                <li>
+                  <NavLink to="/skills">Skills</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/contact">Contact</NavLink>
+                </li>
               </ul>
             </nav>
-          </div>
+          </animated.div>
         )}
         <li className="p-2">
           <NavLink>
