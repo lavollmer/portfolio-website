@@ -16,9 +16,7 @@ const Skills = () => {
             className="flex flex-wrap w-full mb-5 flex-col items-center text-center"
             id="skills"
           >
-            <h1 className=" text-2xl font-medium title-font mb-1 mt-4 text-gray-900">
-              Technical Skills
-            </h1>
+            <h1 className="text-6xl font-poppins mr-8">Technical Skills</h1>
             <p className=" sm:text-m md:text-lg p-2 leading-relaxed text-black">
               I am a dedicated and passionate professional with a strong
               background in various technical domains.
