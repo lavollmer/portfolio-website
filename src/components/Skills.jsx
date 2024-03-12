@@ -21,10 +21,7 @@ const Skills = () => {
               I am a dedicated and passionate professional with a strong
               background in various technical domains.
             </p>
-            <p className="sm:text-m md:text-lg p-2 w-half leading-relaxed text-black font-poppins">
-              Please review my Github profile for demonstration of skills listed
-              below.
-            </p>
+
             {/* <a
               href="https://github.com/lavollmer"
               className="flex flex-col justify-center items-center mt-3"

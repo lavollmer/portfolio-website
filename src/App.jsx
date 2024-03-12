@@ -9,6 +9,7 @@ import Navigation from "./components/Navigation";
 import Background from "../src/assets/ColorBackground.jpg";
 import Projects from "./components/Projects";
 import ProjectDisplay from "./components/ProjectDisplay";
+import { NavLink, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 
@@ -24,12 +25,22 @@ function App() {
           <Navigation />
           <MainPage />
         </div>
-        <ProjectDisplay />
+        <NavLink exact to="/project" activeClassName="active">
+          <ProjectDisplay />
+        </NavLink>
         <Skills />
-        <About />
+        <NavLink exact to="/about" activeClassName="active">
+          <About />
+        </NavLink>
         <Work />
         <Contact />
         <Footer />
+
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/projects" element={<ProjectDisplay />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </BrowserRouter>
     </>
   );
