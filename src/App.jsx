@@ -25,22 +25,14 @@ function App() {
           <Navigation />
           <MainPage />
         </div>
-        <NavLink exact to="/project" activeClassName="active">
+        <NavLink exact to="/projects" activeClassName="active">
           <ProjectDisplay />
         </NavLink>
-        <Skills />
-        <NavLink exact to="/about" activeClassName="active">
-          <About />
-        </NavLink>
-        <Work />
-        <Contact />
+        <Skills id="skills" />
+        <About id="about" />
+        <Work id="work" />
+        <Contact id="contact" />
         <Footer />
-
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/projects" element={<ProjectDisplay />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
       </BrowserRouter>
     </>
   );
