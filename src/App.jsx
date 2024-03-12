@@ -26,10 +26,10 @@ function App() {
           <MainPage />
         </div>
         <ProjectDisplay />
-        <Skills id="skills" />
-        <About id="about" />
-        <Work id="work" />
-        <Contact id="contact" />
+        <Skills />
+        <About />
+        <Work />
+        <Contact />
         <Footer />
       </BrowserRouter>
     </>
