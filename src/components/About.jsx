@@ -37,10 +37,10 @@ const About = () => {
             professional development.
           </p>
           <span className="inline-block h-1 w-10 rounded bg-black mt-8 mb-6"></span>
-          <h2 className="text-gray-900 font-medium title-font tracking-wider sm:text-xs md:text-sm">
+          <h2 className="text-gray-900 font-large title-font tracking-wider">
             LAURA VOLLMER
           </h2>
-          <p className="text-gray-500 sm:text-xs md:text-sm">
+          <p className="text-gray-500">
             Minneapolis, Minnesota | Full Stack Web Developer
           </p>
         </div>
