@@ -15,7 +15,7 @@ const Work = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="flex-wrap font-semibold title-font text-black text-left text-md">
-                  University of Minnesota Coding Full-Stack <br></br> Bootcamp
+                  University of Minnesota Coding <br /> Full-Stack Bootcamp
                   Student
                 </span>
                 <span className="mt-3 text-gray-500 text-sm text-left">
@@ -90,10 +90,10 @@ const Work = () => {
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
                     <li className="list-disc list-inside">
-                      Demonstrated a strong work ethic by methodically
+                      Demonstrated a strong work ethic mindset by methodically
                       monitoring monthly changes in over 1,000 medication
-                      profiles and providing accurate protocol recommendations
-                      and documentation for software
+                      profiles and providing accurate recommendations and
+                      documentation for software
                     </li>
                     <li className="list-disc list-inside">
                       Applied collaborative and critical thinking skills to
@@ -103,15 +103,10 @@ const Work = () => {
                     </li>
                     <li className="list-disc list-inside">
                       Effectively collaborated with a team of over twenty
-                      interdisciplinary members, including physicians, customer
-                      success managers, technical support managers, software
-                      engineers, and sales representatives
+                      interdisciplinary members, including software developers,
+                      customer success managers, technical support managers,
+                      physicians, and sales representatives
                     </li>
-                    {/* <li className="list-disc list-inside">
-                      Supported client-facing meetings regarding protocol
-                      consensus for software implementation at health- systems
-                      around the United States
-                    </li> */}
                   </p>
                 </ul>
               </div>
@@ -119,7 +114,7 @@ const Work = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-black text-left">
-                  Clinical Content Reviewer
+                  Fact-Checker
                 </span>
                 <span className="mt-3 text-gray-500 text-sm text-left">
                   2019 - 2020
@@ -135,11 +130,12 @@ const Work = () => {
                     </li>
                     <li className="list-disc list-inside">
                       Met all timely deadline requirements for the return of
-                      revised articles for review and publication
+                      revised articles for quality, review, and publication
                     </li>
                     <li className="list-disc list-inside">
                       Documented hundreds of citation corrections to articles
-                      with attention to detail and content integrity
+                      with quality assurance, attention to detail, and content
+                      integrity
                     </li>
                   </p>
                 </ul>
@@ -160,18 +156,18 @@ const Work = () => {
                     <li className="list-disc list-inside">
                       Developed, wrote, and implemented multiple policies,
                       procedures, and best practices to optimize medication
-                      management within the health system and associated
+                      management quality within the health system and associated
                       hospitals
                     </li>
                     <li className="list-disc list-inside">
                       Ensured compliance with external regulatory agencies,
-                      state laws, and regulations about patient care maintenance
-                      and prescription management.
+                      state laws, and patient care maintenance and prescription
+                      management regulations
                     </li>
                     <li className="list-disc list-inside">
-                      Educated and mentored 24 fourth-year pharmacy students,
-                      60+ staff members, 100+ second-year medical students, and
-                      10 pharmacy interns through rotations, clinical topic
+                      Educated and mentored 100+ second-year medical, 24
+                      fourth-year pharmacy students, 60+ staff members, and 10
+                      pharmacy interns through rotations, clinical topic
                       discussions, and medical literature journal clubs
                     </li>
                   </p>
