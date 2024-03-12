@@ -175,6 +175,20 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <h1
+            className=" text-3xl font-medium text-black items-center text-center m-10"
+            id="work"
+          >
+            Professional Education
+          </h1>
+          <div className="text-black items-center text-center text-xl p-2">
+            <h2>
+              University of Minnesota Full-Stack Coding Boot Camp Certification
+              2023
+            </h2>
+            <h2>Masters of Business Administration (MBA)</h2>
+            <h2>Doctorate of Pharmacy (PharmD.)</h2>
+          </div>
         </div>
       </section>
     </div>
