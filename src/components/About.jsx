@@ -9,7 +9,7 @@ const About = () => {
             className="text-gray-900 font-bold title-font tracking-wider text-lg pt-10"
             id="about"
           >
-            ABOUT
+            ABOUT ME
           </h1>
           <br></br>
           <p className="text-base sm:text-xs lg:text-lg">

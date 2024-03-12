@@ -52,6 +52,7 @@ Third parties used during this project:
 - Google Fonts: Poppins
 - ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
 - Image is from: https://unsplash.com/photos/a-pink-and-blue-background-with-a-lot-of-bubbles-2dyR13FNg2I
+- Carousel from Flowbite inspiration: https://flowbite.com/docs/components/carousel/
 
 ## Licenses
 
