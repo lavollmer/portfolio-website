@@ -5,7 +5,7 @@ import { FaNodeJs } from "react-icons/fa6";
 import { SiCsswizardry } from "react-icons/si";
 import { BsFiletypeHtml } from "react-icons/bs";
 import { BsPersonWorkspace } from "react-icons/bs";
-import { FaGithubSquare } from "react-icons/fa";
+// import { FaGithubSquare } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -25,7 +25,7 @@ const Skills = () => {
               Please review my Github profile for demonstration of skills listed
               below.
             </p>
-            <a
+            {/* <a
               href="https://github.com/lavollmer"
               className="flex flex-col justify-center items-center mt-3"
             >
@@ -33,7 +33,7 @@ const Skills = () => {
                 <FaGithubSquare size={26} />
                 <span>Laura Vollmer Github</span>
               </button>
-            </a>
+            </a> */}
           </div>
           <div className="flex flex-wrap -m-2">
             <div className="xl:w-1/3 md:w-1/2 p-4">
