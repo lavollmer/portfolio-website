@@ -25,9 +25,7 @@ function App() {
           <Navigation />
           <MainPage />
         </div>
-        <NavLink exact to="/projects" activeClassName="active">
-          <ProjectDisplay />
-        </NavLink>
+        <ProjectDisplay />
         <Skills id="skills" />
         <About id="about" />
         <Work id="work" />
