@@ -50,14 +50,14 @@ const Contact = () => {
               Reach out to me on
               <a
                 href="https://www.linkedin.com/in/lvollmer/"
-                className="font-bold text-green-800"
+                className="font-bold text-gray-500"
               >
                 <span> LinkedIn </span>
               </a>
               or take a look at my
               <a
                 href="https://github.com/lavollmer"
-                className="font-bold text-green-800"
+                className="font-bold text-gray-500"
               >
                 <span> Github </span>
               </a>
