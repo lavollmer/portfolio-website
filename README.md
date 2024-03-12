@@ -37,6 +37,7 @@ Technical Requirements of the project include:
 
 Github Repo:https://github.com/lavollmer/portfolio-website
 Netlifly:
+Namecheap:
 
 ## Credits
 
