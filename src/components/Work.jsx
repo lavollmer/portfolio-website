@@ -6,7 +6,7 @@ const Work = () => {
       <section className="text-gray-600 body-font overflow-hidden p-10">
         <div className="container px-5 py-24 mx-auto">
           <h1
-            className=" text-3xl font-medium text-black items-center text-center m-10"
+            className=" text-2xl md:text-4xl text-black items-center text-center m-10"
             id="work"
           >
             Professional Work Experience
@@ -144,7 +144,8 @@ const Work = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-black text-left">
-                  Clinical Pharmacy Specialist – Medication Use
+                  Clinical Pharmacy Specialist,
+                  <br /> Medication Use
                 </span>
                 <span className="mt-3 text-gray-500 text-sm text-left">
                   2017 - 2019
@@ -175,31 +176,26 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <h1
-            className=" text-3xl font-medium text-black items-center text-center m-10"
-            id="work"
-          >
-            Professional Education
-          </h1>
-          <div className="text-black items-center text-left text-xl p-2">
-            <div className="flex flex-row justify-between">
-              <h2>
-                Full-Stack Coding Boot Camp Certification - University of
-                Minnesota
-              </h2>
-              <h2>2023</h2>
-            </div>
-            <div className="flex flex-row justify-between">
-              <h2>
-                Masters of Business Administration (MBA), Conc. in Healthcare
-                Informatics - New England College
-              </h2>
-              <h2>2017 - 2019</h2>
-            </div>
-            <div className="flex flex-row justify-between">
-              <h2>Doctor of Pharmacy (PharmD.) - Drake University </h2>
-              <h2>2009 - 2015</h2>
-            </div>
+        </div>
+        <h1
+          className=" text-3xl font-medium text-black items-center text-center m-10"
+          id="work"
+        >
+          Professional Education
+        </h1>
+        <div className="grid grid-cols-1 gap-4 text-sm md:text-xl mx-auto text-black">
+          {/* <div className="flex flex-col  space-y-8 text-sm md:text-xl md:p-2"> */}
+          <div className="m-2 justify-between">
+            <h2>Full-Stack Coding Boot Camp Certification </h2>
+            <h2 className="italic">University of Minnesota</h2>
+          </div>
+          <div className="m-2 justify-evenly">
+            <h2>Masters of Business Administration (MBA) </h2>
+            <h2 className="italic">New England College</h2>
+          </div>
+          <div className="m-2 justify-evenly">
+            <h2>Doctor of Pharmacy (PharmD.) </h2>
+            <h2 className="italic">Drake University</h2>
           </div>
         </div>
       </section>
