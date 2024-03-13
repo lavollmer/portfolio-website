@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
+import Button from "./Button";
+import ButtonWebsite from "./ButtonWebsite";
 
 const ProjectDisplay = () => {
   return (
@@ -33,12 +35,19 @@ const ProjectDisplay = () => {
             which I contributed skills in project management, MVC Models, Chakra
             UI implementation, MERN Stack, and MongoDB.
           </p>
-          {/* <div className="flex flex-row justify-center p-2">
-            <Button url="www.linkedin.com" />
-          </div>
-          <div className="flex flex-row justify-center p-2">
-            <ButtonWebsite />
-          </div> */}
+          <a
+            href="https://github.com/lavollmer/gift-guide"
+            className="flex flex-col justify-center items-center mt-3"
+          >
+            <div className="flex flex-row justify-center p-2">
+              <Button url="www.linkedin.com" />
+            </div>
+          </a>
+          <a href="https://gift-guide-020589889d66.herokuapp.com/">
+            <div className="flex flex-row justify-center p-2">
+              <ButtonWebsite />
+            </div>
+          </a>
         </div>
         <div className="bg-white shadow-md rounded-lg m-4">
           <h3 className="items-center text-center text-poppins text-2xl ">
@@ -49,6 +58,19 @@ const ProjectDisplay = () => {
             game through collaborative game design, pull requests, code review,
             and pair programming.
           </p>
+          <a
+            href="https://github.com/lavollmer/robot-murder-mystery"
+            className="flex flex-col justify-center items-center mt-3"
+          >
+            <div className="flex flex-row justify-center p-2">
+              <Button />
+            </div>
+          </a>
+          <a href="https://franklinbrad.github.io/robot-murder-mystery/">
+            <div className="flex flex-row justify-center p-2">
+              <ButtonWebsite />
+            </div>
+          </a>
         </div>
         <div className="bg-white shadow-md rounded-lg m-4">
           <h3 className="items-center text-center text-poppins text-2xl ">
@@ -75,6 +97,19 @@ const ProjectDisplay = () => {
             the final score. The user will be notified by the browser whether
             their score is correct or incorrect.
           </p>
+          <a
+            href="https://github.com/lavollmer/timed-quiz?tab=readme-ov-file"
+            className="flex flex-col justify-center items-center mt-3"
+          >
+            <div className="flex flex-row justify-center p-2">
+              <Button />
+            </div>
+          </a>
+          <a href="https://lavollmer.github.io/timed-quiz/">
+            <div className="flex flex-row justify-center p-2">
+              <ButtonWebsite />
+            </div>
+          </a>
         </div>
         <div className="bg-white shadow-md rounded-lg m-4">
           <h3 className="items-center text-center text-poppins text-2xl ">
