@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-600 body-font overflow-hidden p-10">
         <div className="container px-5 py-24 mx-auto">
           <h1
             className=" text-3xl font-medium text-black items-center text-center m-10"
@@ -181,13 +181,25 @@ const Work = () => {
           >
             Professional Education
           </h1>
-          <div className="text-black items-center text-center text-xl p-2">
-            <h2>
-              University of Minnesota Full-Stack Coding Boot Camp Certification
-              2023
-            </h2>
-            <h2>Masters of Business Administration (MBA)</h2>
-            <h2>Doctorate of Pharmacy (PharmD.)</h2>
+          <div className="text-black items-center text-left text-xl p-2">
+            <div className="flex flex-row justify-between">
+              <h2>
+                Full-Stack Coding Boot Camp Certification - University of
+                Minnesota
+              </h2>
+              <h2>2023</h2>
+            </div>
+            <div className="flex flex-row justify-between">
+              <h2>
+                Masters of Business Administration (MBA), Conc. in Healthcare
+                Informatics - New England College
+              </h2>
+              <h2>2017 - 2019</h2>
+            </div>
+            <div className="flex flex-row justify-between">
+              <h2>Doctor of Pharmacy (PharmD.) - Drake University </h2>
+              <h2>2009 - 2015</h2>
+            </div>
           </div>
         </div>
       </section>

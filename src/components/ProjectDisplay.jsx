@@ -106,8 +106,7 @@ const ProjectDisplay = () => {
             begin the quiz. During the quiz, the user will answer a series of
             question in which he/she will have to select the answer. Each answer
             will be documented whether it is correct or incorrect and tallied to
-            the final score. The user will be notified by the browser whether
-            their score is correct or incorrect.
+            the final score.
           </p>
           <a
             href="https://github.com/lavollmer/timed-quiz?tab=readme-ov-file"
@@ -132,9 +131,7 @@ const ProjectDisplay = () => {
             SVG. The user is asked a series of questions such as color, shape,
             text color and text in logo. Technical requirements include using
             inquirer, jest, and writeFile SVG. Each image generated is a 300x200
-            pixel image size. Criteria met includes validating character length
-            of user input, and "generated logo.svg" in the command line once the
-            node index.js is read.
+            pixel image size.
           </p>
           <a
             href="https://github.com/lavollmer/logo-maker?tab=readme-ov-file"

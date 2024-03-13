@@ -53,14 +53,14 @@ const Contact = () => {
               Reach out to me on
               <a
                 href="https://www.linkedin.com/in/lvollmer/"
-                className="font-bold text-gray-500"
+                className="font-bold text-[#957fef]"
               >
                 <span> LinkedIn </span>
               </a>
               or take a look at my
               <a
                 href="https://github.com/lavollmer"
-                className="font-bold text-gray-500"
+                className="font-bold text-[#957fef]"
               >
                 <span> Github </span>
               </a>
@@ -139,7 +139,7 @@ const Contact = () => {
                     </div>
                     <div className="p-2 w-full">
                       <button
-                        className="flex mx-auto text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-gray-500 rounded text-lg"
+                        className="flex mx-auto text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#957fef] rounded text-lg"
                         type="submit"
                         value="Send"
                       >
