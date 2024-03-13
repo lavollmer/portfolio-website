@@ -46,6 +46,9 @@ const Navigation = () => {
                   <a href="#skills">SKILLS</a>
                 </li>
                 <li>
+                  <a href="#design">DESIGN</a>
+                </li>
+                <li>
                   <a href="#contact">CONTACT</a>
                 </li>
               </ul>

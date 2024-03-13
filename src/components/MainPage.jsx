@@ -38,7 +38,7 @@ const MainPage = () => {
           }}
           repeat={Infinity}
         />
-        <h2 className="text-4xl font-poppins">websites.</h2>
+        <h2 className="text-4xl font-poppins">software and websites.</h2>
       </div>
       {/* <div className="absolute top-1/4 right-1/4 z-10 text-black  p-4">
         <animated.div

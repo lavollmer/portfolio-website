@@ -7,9 +7,8 @@ import Skills from "./components/Skills";
 import { BrowserRouter } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Background from "../src/assets/ColorBackground.jpg";
-import Projects from "./components/Projects";
 import ProjectDisplay from "./components/ProjectDisplay";
-import { NavLink, Route, Routes } from "react-router-dom";
+import Design from "./components/Design";
 
 import "./App.css";
 
@@ -27,6 +26,7 @@ function App() {
         </div>
         <ProjectDisplay />
         <Skills />
+        <Design />
         <About />
         <Work />
         <Contact />
