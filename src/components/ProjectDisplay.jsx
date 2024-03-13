@@ -25,12 +25,12 @@ const ProjectDisplay = () => {
         </a>
         {/* grid container - 3 columns specified - gap of 6 units between columns */}
         {/* <div className="grid grid-cols-3 gap-6 p-5 text-lg md:text-xl"> */}
-        <div className="flex flex-col justify-evenly container px-5 py-24 mx-auto">
-          <div className="bg-white shadow-lg rounded-lg outline outline-black">
-            <h3 className="items-center text-center text-poppins text-lg md:text-2xl">
+        <div className="flex flex-col space-y-6 px-5 py-24 mx-auto px-auto">
+          <div className="bg-white shadow-lg rounded-lg outline outline-black p-2">
+            <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
               Giftify
             </h3>
-            <p className="p-6">
+            <p className="p-4 md:p-6 text-lg md:text-xl">
               A collaborative group project to create a gift guide website
               through which I contributed skills in project management, MVC
               Models, Chakra UI implementation, MERN Stack, and MongoDB.
@@ -49,11 +49,11 @@ const ProjectDisplay = () => {
               </div>
             </a>
           </div>
-          <div className="bg-white shadow-md rounded-lg outline outline-black ">
-            <h3 className="items-center text-center text-poppins text-lg md:text-2xl">
+          <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
+            <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
               Robot Murder Mystery
             </h3>
-            <p className="p-6">
+            <p className="p-4 md:p-6 text-lg md:text-xl">
               A group project to create a robot murder mystery dystopian
               guess-who game through collaborative game design, pull requests,
               code review, and pair programming.
@@ -72,11 +72,11 @@ const ProjectDisplay = () => {
               </div>
             </a>
           </div>
-          <div className="bg-white shadow-md rounded-lg outline outline-black">
+          <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
               Note Taking Application
             </h3>
-            <p className="p-6">
+            <p className="p-4 md:p-6 text-lg md:text-xl">
               The goal of the project is to create a js file that connects the
               front-end with the back-end functionality. When the user clicks
               "get started", they are brought to an area to take notes, save
@@ -96,11 +96,11 @@ const ProjectDisplay = () => {
               </div>
             </a>
           </div>
-          <div className="bg-white shadow-md rounded-lg outline outline-black">
+          <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
               Timed Quiz
             </h3>
-            <p className="p-6">
+            <p className="p-4 md:p-6 text-lg md:text-xl">
               This project involves creating a multiple question quiz for a user
               with a timer element. The user will select the "start button" to
               begin the quiz. During the quiz, the user will answer a series of
@@ -122,11 +122,11 @@ const ProjectDisplay = () => {
               </div>
             </a>
           </div>
-          <div className="bg-white shadow-md rounded-lg outline outline-black">
+          <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
               Logo Maker
             </h3>
-            <p className="p-6">
+            <p className="p-4 md:p-6 text-lg md:text-xl">
               The logo-maker project was to create a logo based on user input
               with SVG. The user is asked a series of questions such as color,
               shape, text color and text in logo. Technical requirements include
@@ -147,17 +147,16 @@ const ProjectDisplay = () => {
               </div>
             </a>
           </div>
-          <div className="bg-white shadow-md rounded-lg outline outline-black">
+          <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
               Schedule Calendar
             </h3>
-            <p className="p-6">
+            <p className="p-4 md:p-6 text-lg md:text-xl">
               This project uses a daily planner to create a schedule for the
               user. The problem it solves is to add events and appointments to a
               daily planner so that the user may manage their day. The time is
               blocked off in color indicating past, present, and future time
-              compared to the current time of day. The current day of the week
-              and date is displayed at the top of the page.
+              compared to the current time of day.
             </p>
             <a
               href="https://github.com/lavollmer/schedule-calendar?tab=readme-ov-file"

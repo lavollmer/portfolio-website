@@ -16,12 +16,12 @@ const Design = () => {
   return (
     <>
       <div className="m-10 items-center" id="design">
-        <h1 className="text-6xl font-poppins items-center text-center m-10">
+        <h1 className="text-4xl md:text-6xl font-poppins items-center text-center m-10">
           Photography Gallery
         </h1>
         <div className="items-center">
           <div className="flex flex-col font-poppins text-left m-10">
-            <p className="text-xl">
+            <p className="text-md md:text-xl">
               Some design work I have done includes working as a Floral Designer
               in Twin Cities, being selected for Juried Exhibition in
               Professional Art Gallery for photography, and being selected for
