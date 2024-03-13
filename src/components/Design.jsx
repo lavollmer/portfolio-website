@@ -21,7 +21,7 @@ const Design = () => {
                 alt=""
               />
             </div>
-            {/* <div>
+            <div>
             <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
         </div>
         <div>
@@ -60,7 +60,7 @@ const Design = () => {
         <div>
             <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
         </div>
-    </div> */}
+    </div>
           </div>
         </div>
       </div>
