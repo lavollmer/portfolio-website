@@ -11,6 +11,9 @@ import RedRose from "../assets/photography/redroses.jpeg";
 import OrangeFlowers from "../assets/photography/orangeflowers.jpeg";
 import MNFall from "../assets/photography/mnfall.jpeg";
 import Wrapped from "../assets/photography/wrappedflowers.jpeg";
+import Peonies from "../assets/photography/peonies.jpeg";
+import Walker from "../assets/photography/walkerartmuseum.jpeg";
+import Cherry from "../assets/photography/cherryspoon.jpeg";
 
 const Design = () => {
   return (
@@ -46,15 +49,15 @@ const Design = () => {
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
-                src={Colorado}
-                alt="Colorado mountain top growing vibrant wildflowers under the warm daylight"
+                src={Walker}
+                alt="Walker Art Museum in Minneapolis"
               />
             </div>
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
-                src={Dahlia}
-                alt="Orange Dahlia flower with fly on petals"
+                src={Colorado}
+                alt="Beautiful Colorado mountains with a wildflowers in the foreground"
               />
             </div>
           </div>
@@ -66,6 +69,13 @@ const Design = () => {
                 alt="Elegant floral arrangement showcased in a charming yellow chick vase, featuring a ensemble of roses and various blossoms"
               />
             </div>
+            {/* <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Peonies}
+                alt="Beautiful peonies"
+              />
+            </div> */}
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
@@ -79,6 +89,13 @@ const Design = () => {
                 src={Sunrise}
                 alt="Minnesota sunrise showcasing vibrant orange, purple, and yellow hues painting the sky over a calm lake"
               />
+              {/* <div>
+                <img
+                  class="h-auto max-w-full rounded-lg"
+                  src={Walker}
+                  alt="Walker Art Museum in Minneapolis"
+                />
+              </div> */}
             </div>
           </div>
           <div class="grid gap-4">
@@ -89,6 +106,7 @@ const Design = () => {
                 alt="Close-up view of three tulips with orange and yellow hues at Minnesota Arboretum"
               />
             </div>
+
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
@@ -96,6 +114,7 @@ const Design = () => {
                 alt="Sailboat docked in Grand Marais Minnesota in early morning"
               />
             </div>
+
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
@@ -103,15 +122,29 @@ const Design = () => {
                 alt="Two hands holding miniature red roses that have just bloomed in the garden"
               />
             </div>
+            {/* <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Dahlia}
+                alt="Orange Dahlia flower with fly on petals"
+              />
+            </div> */}
           </div>
           <div class="grid gap-4">
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
+                src={Cherry}
+                alt="Iconic cherry spoon sculpture at the Minneapolis Sculpture Garden"
+              />
+            </div>
+            {/* <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
                 src={MNFall}
                 alt="Fall scenery of a gorgeous lake with a duck swimming across its surface"
               />
-            </div>
+            </div> */}
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
