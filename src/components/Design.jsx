@@ -15,16 +15,20 @@ import Wrapped from "../assets/photography/wrappedflowers.jpeg";
 const Design = () => {
   return (
     <>
-      <div className="m-10" id="design">
-        <h1 className="text-6xl font-poppins items-center text-center">
+      <div className="m-10 items-center" id="design">
+        <h1 className="text-6xl font-poppins items-center text-center m-10">
           Photography Gallery
         </h1>
-        <p className="text-xl font-poppins items-center text-center p-20">
-          In addition to learning website development, I worked as a floral
-          designer which required visual design knowledge. I was able to have
-          two professional photography exhibits in a Juried exhibition and local
-          community gallery.
-        </p>
+        <div className="items-center">
+          <div className="flex flex-col font-poppins text-left m-10">
+            <p className="text-xl">
+              Some design work I have done includes working as a Floral Designer
+              in Twin Cities, being selected for Juried Exhibition in
+              Professional Art Gallery for photography, and being selected for
+              Exhibition in Community Art Gallery for photography.
+            </p>
+          </div>
+        </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="grid gap-4">
             <div>
