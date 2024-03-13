@@ -83,6 +83,19 @@ const ProjectDisplay = () => {
             started", they are brought to an area to take notes, save notes and
             delete the notes.
           </p>
+          <a
+            href="https://github.com/lavollmer/note-taker?tab=readme-ov-file"
+            className="flex flex-col justify-center items-center mt-3"
+          >
+            <div className="flex flex-row justify-center p-2">
+              <Button />
+            </div>
+          </a>
+          <a href="https://noter-taker-d6c57055bb47.herokuapp.com/">
+            <div className="flex flex-row justify-center p-2">
+              <ButtonWebsite />
+            </div>
+          </a>
         </div>
         <div className="bg-white shadow-md rounded-lg m-4">
           <h3 className="items-center text-center text-poppins text-2xl ">
@@ -113,16 +126,30 @@ const ProjectDisplay = () => {
         </div>
         <div className="bg-white shadow-md rounded-lg m-4">
           <h3 className="items-center text-center text-poppins text-2xl ">
-            SQL-Employee Tracker
+            Logo Maker
           </h3>
           <p className="p-6">
-            This project involved creating a command line user prompt to store
-            data about a business. The inquirer prompt asked the end user to
-            view all departments, view all roles, view all employees, add an
-            employee, remove an employee, update and employee, etc. The end user
-            is able to change the data based on the request and update the
-            printed table of data.
+            The logo-maker project was to create a logo based on user input with
+            SVG. The user is asked a series of questions such as color, shape,
+            text color and text in logo. Technical requirements include using
+            inquirer, jest, and writeFile SVG. Each image generated is a 300x200
+            pixel image size. Criteria met includes validating character length
+            of user input, and "generated logo.svg" in the command line once the
+            node index.js is read.
           </p>
+          <a
+            href="https://github.com/lavollmer/logo-maker?tab=readme-ov-file"
+            className="flex flex-col justify-center items-center mt-3"
+          >
+            <div className="flex flex-row justify-center p-2">
+              <Button />
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1RZFH9m08NgvzWOmgTfGifvGVV8TT4nzT/view">
+            <div className="flex flex-row justify-center p-2">
+              <ButtonWebsite />
+            </div>
+          </a>
         </div>
         <div className="bg-white shadow-md rounded-lg m-4">
           <h3 className="items-center text-center text-poppins text-2xl ">
@@ -136,6 +163,19 @@ const ProjectDisplay = () => {
             the current time of day. The current day of the week and date is
             displayed at the top of the page.
           </p>
+          <a
+            href="https://github.com/lavollmer/schedule-calendar?tab=readme-ov-file"
+            className="flex flex-col justify-center items-center mt-3"
+          >
+            <div className="flex flex-row justify-center p-2">
+              <Button />
+            </div>
+          </a>
+          <a href="https://lavollmer.github.io/schedule-calendar/">
+            <div className="flex flex-row justify-center p-2">
+              <ButtonWebsite />
+            </div>
+          </a>
         </div>
       </div>
     </>
