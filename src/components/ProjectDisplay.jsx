@@ -35,23 +35,24 @@ const ProjectDisplay = () => {
               through which I contributed skills in project management, MVC
               Models, Chakra UI implementation, MERN Stack, and MongoDB.
             </p>
-            <a
-              href="https://github.com/lavollmer/gift-guide"
-              aria-label="Laura Vollmer Github Gift-Guide Repository"
-              className="flex flex-col justify-center items-center mt-3"
-            >
-              <div className="flex flex-row justify-center p-2">
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/gift-guide"
+                aria-label="Laura Vollmer Github Gift-Guide Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
                 <Button id="Gift Guide Github Code Button" />
-              </div>
-            </a>
-            <a
-              href="https://gift-guide-020589889d66.herokuapp.com/"
-              aria-label="Laura Vollmer Gift-Guide Website"
-            >
-              <div className="flex flex-row justify-center p-2">
+              </a>
+            </div>
+
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://gift-guide-020589889d66.herokuapp.com/"
+                aria-label="Laura Vollmer Gift-Guide Website"
+              >
                 <ButtonWebsite id="Gift Guide Website Button" />
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
           <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
@@ -62,23 +63,23 @@ const ProjectDisplay = () => {
               guess-who game through collaborative game design, pull requests,
               code review, and pair programming.
             </p>
-            <a
-              href="https://github.com/lavollmer/robot-murder-mystery"
-              aria-label="Laura Vollmer Github Robot Murder Mystery Repository"
-              className="flex flex-col justify-center items-center mt-3"
-            >
-              <div className="flex flex-row justify-center p-2">
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/robot-murder-mystery"
+                aria-label="Laura Vollmer Github Robot Murder Mystery Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
                 <Button id="Robot Murder Mystery Github Code Button" />
-              </div>
-            </a>
-            <a
-              href="https://franklinbrad.github.io/robot-murder-mystery/"
-              aria-label="Laura Vollmer Robot Murder Mystery Website"
-            >
-              <div className="flex flex-row justify-center p-2">
+              </a>
+            </div>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://franklinbrad.github.io/robot-murder-mystery/"
+                aria-label="Laura Vollmer Robot Murder Mystery Website"
+              >
                 <ButtonWebsite id="Robot Murder Mystery Website Button" />
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
           <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
@@ -90,15 +91,15 @@ const ProjectDisplay = () => {
               "get started", they are brought to an area to take notes, save
               notes and delete the notes.
             </p>
-            <a
-              href="https://github.com/lavollmer/note-taker?tab=readme-ov-file"
-              aria-label="Laura Vollmer Github Note Taking Application Repository"
-              className="flex flex-col justify-center items-center mt-3"
-            >
-              <div className="flex flex-row justify-center p-2">
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/note-taker?tab=readme-ov-file"
+                aria-label="Laura Vollmer Github Note Taking Application Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
                 <Button id="Note Taking Application Github Code Button" />
-              </div>
-            </a>
+              </a>
+            </div>
             <a
               href="https://noter-taker-d6c57055bb47.herokuapp.com/"
               aria-label="Laura Vollmer Github Note Taking Application Website"

@@ -1,5 +1,4 @@
 import React from "react";
-import Dahlia from "../assets/photography/dahlia.jpeg";
 import Chickadee from "../assets/photography/chickadee.jpeg";
 import Colorado from "../assets/photography/colorado.jpeg";
 import FallFlowers from "../assets/photography/fallflowers.jpeg";
@@ -9,9 +8,7 @@ import Tulips from "../assets/photography/tulips.jpeg";
 import Sailboat from "../assets/photography/sailboat.jpeg";
 import RedRose from "../assets/photography/redroses.jpeg";
 import OrangeFlowers from "../assets/photography/orangeflowers.jpeg";
-import MNFall from "../assets/photography/mnfall.jpeg";
 import Wrapped from "../assets/photography/wrappedflowers.jpeg";
-import Peonies from "../assets/photography/peonies.jpeg";
 import Walker from "../assets/photography/walkerartmuseum.jpeg";
 import Cherry from "../assets/photography/cherryspoon.jpeg";
 
@@ -122,13 +119,6 @@ const Design = () => {
                 alt="Two hands holding miniature red roses that have just bloomed in the garden"
               />
             </div>
-            {/* <div>
-              <img
-                class="h-auto max-w-full rounded-lg"
-                src={Dahlia}
-                alt="Orange Dahlia flower with fly on petals"
-              />
-            </div> */}
           </div>
           <div class="grid gap-4">
             <div>
@@ -138,13 +128,6 @@ const Design = () => {
                 alt="Iconic cherry spoon sculpture at the Minneapolis Sculpture Garden"
               />
             </div>
-            {/* <div>
-              <img
-                class="h-auto max-w-full rounded-lg"
-                src={MNFall}
-                alt="Fall scenery of a gorgeous lake with a duck swimming across its surface"
-              />
-            </div> */}
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
