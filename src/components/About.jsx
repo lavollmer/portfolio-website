@@ -4,8 +4,8 @@ import LauraVolProfile from "../assets/lauravolprofile.png";
 const About = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font flex flex-column lg:flex-row">
-        <div className="text-left lg:p-20">
+      <section className="text-gray-600 body-font flex flex-col md:flex-row">
+        <div className="text-left p-10 md:p-20">
           <h1
             className="text-gray-900 font-bold title-font tracking-wider text-lg pt-10"
             id="about"
@@ -41,16 +41,15 @@ const About = () => {
           <h2 className="text-gray-900 font-large title-font tracking-wider">
             LAURA VOLLMER
           </h2>
-          <p className="text-gray-500">
-            Minneapolis, Minnesota | Full Stack Web Developer
+          <p className="text-gray-500 text-sm md:text-md">
+            Minneapolis, Minnesota | <br /> Full Stack Web Developer
           </p>
         </div>
-        <div className="flex sm:flex-column md:flex-row justify-center items-center sm:tp-20 md:p-2 ">
+        <div className="flex flex-column md:flex-row justify-center items-center md:p-2 ">
           <img
             loading="lazy"
-            // src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             src={LauraVolProfile}
-            className="object-cover w-[80%] h-[40%]   rounded-lg"
+            className="object-cover w-[60%] md:w-[80%] h-[40%] rounded-lg"
             alt="Laura Vollmer Profile Picture"
           />
         </div>
