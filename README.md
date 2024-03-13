@@ -15,13 +15,31 @@ A web development portfolio website created with React.js, TailwindCSS, Vite and
 
 ## Website Screenshots
 
-![Home Page]()
-![Projects]()
-![Skills]()
-![About Section]()
-![Photography Gallery]()
-![Work Experience]()
-![Contact]()
+Below are the screenshots of the website.
+
+Home Page:
+![Home Page](./src/assets/READMEphotos/homepage.png)
+
+Navigation Bar:
+![Home Page](./src/assets/READMEphotos/Navigation.png)
+
+Project Page:
+![Projects](./src/assets/READMEphotos/projects.png)
+
+Skills Page:
+![Skills](./src/assets/READMEphotos/technicalskills.png)
+
+About Page:
+![About Section](./src/assets/READMEphotos/aboutme.png)
+
+Photography Gallery Page:
+![Photography Gallery](./src/assets/READMEphotos/photogallery.png)
+
+Work Experience Page:
+![Work Experience](./src/assets/READMEphotos/profwork.png)
+
+Contact Page
+![Contact](./src/assets/READMEphotos/contactform.png)
 
 ## Technical Requirements
 
@@ -35,12 +53,13 @@ Technical Requirements of the project include:
 - React-Type-Animation
 - TailwindCSS
 - Netlify
+- Namecheap
+- Flowbite
 
 ## Website Links
 
 Github Repo:https://github.com/lavollmer/portfolio-website
-Netlifly:
-Namecheap:
+Deployed Website:https://lauradeveloper.com/
 
 ## Credits
 
