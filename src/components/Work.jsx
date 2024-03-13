@@ -177,7 +177,7 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 text-sm md:text-xl mx-auto text-black">
+        <div className="grid grid-cols-1 gap-4 md:ml-10 text-sm md:text-xl mx-auto text-black">
           {/* <div className="flex flex-col  space-y-8 text-sm md:text-xl md:p-2"> */}
           <h1
             className=" text-3xl font-medium text-black items-left text-left p-2"

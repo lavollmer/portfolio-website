@@ -49,7 +49,7 @@ const Contact = () => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
               Contact Form
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black font-bold">
+            <p className="w-3/4 lg:w-2/3 mx-auto leading-relaxed text-base text-black font-bold p-2">
               Reach out to me on
               <a
                 href="https://www.linkedin.com/in/lvollmer/"
@@ -67,10 +67,14 @@ const Contact = () => {
               !
             </p>
 
-            <div className=" p-4 w-full leading-relaxed text-black">
-              <p>Located in Minneapolis, Minnesota | Open to Remote (USA)</p>
-              <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black font-bold p-4">
-                Send me an email with the form below!
+            <div className="md:p-4 w-full leading-relaxed text-black p-2">
+              <p>
+                Located in Minneapolis, Minnesota | <br />
+                Open to Remote (USA)
+              </p>
+              <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black font-bold md:p-4 p-2">
+                Send me an email with the form below! I will respond in 1-2
+                business days.
               </p>
             </div>
           </div>
