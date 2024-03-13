@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A portfolio website created with React.js, TailwindCSS and JavaScript. The website has a responsive design, easy to navigate and modern interface.
+A web development portfolio website created with React.js, TailwindCSS, Vite and JavaScript. The website has a modern interface and is user-friendly. The portfolio includes a Home Page, About, Projects, Photography Gallery and Contact section. Each section was crafted with care and each section is constantly being updated or worked on.
 
 ## Table of Contents
 
@@ -15,10 +15,13 @@ A portfolio website created with React.js, TailwindCSS and JavaScript. The websi
 
 ## Website Screenshots
 
-![Home Page](assets/images/screenshot.png)
-![About Section](assets/images/screenshot.png)
-![Projects](assets/images/screenshot.png)
-![Work Experience](assets/images/screenshot.png)
+![Home Page]()
+![Projects]()
+![Skills]()
+![About Section]()
+![Photography Gallery]()
+![Work Experience]()
+![Contact]()
 
 ## Technical Requirements
 
@@ -52,7 +55,7 @@ Third parties used during this project:
 - Google Fonts: Poppins
 - ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
 - Image is from: https://unsplash.com/photos/a-pink-and-blue-background-with-a-lot-of-bubbles-2dyR13FNg2I
-- Carousel from Flowbite inspiration: https://flowbite.com/docs/components/carousel/
+- Inspiration for Gallery Images: https://flowbite.com/docs/components/gallery/
 
 ## Licenses
 
