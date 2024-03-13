@@ -37,16 +37,16 @@ const Navigation = () => {
             <nav className="text-2xl font-poppins m-10 font-bold flex flex-col justify-between w-full">
               <ul>
                 <li>
-                  <a href="#project">PROJECTS</a>
+                  <NavLink href="#project">PROJECTS</NavLink>
                 </li>
                 <li>
-                  <a href="#about">ABOUT</a>
+                  <NavLink href="#about">ABOUT</NavLink>
                 </li>
                 <li>
-                  <a href="#skills">SKILLS</a>
+                  <NavLink href="#skills">SKILLS</NavLink>
                 </li>
                 <li>
-                  <a href="#contact">CONTACT</a>
+                  <NavLink href="#contact">CONTACT</NavLink>
                 </li>
               </ul>
             </nav>
