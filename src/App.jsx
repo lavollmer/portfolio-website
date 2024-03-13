@@ -25,9 +25,9 @@ function App() {
           <Navigation />
           <MainPage />
         </div>
-        <ProjectDisplay id="projects" />
-        <Skills id="skills" />
-        <About id="about" />
+        <ProjectDisplay />
+        <Skills />
+        <About />
         <Work />
         <Contact />
         <Footer />

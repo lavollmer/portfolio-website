@@ -4,7 +4,7 @@ import { FaGithubSquare } from "react-icons/fa";
 const ProjectDisplay = () => {
   return (
     <>
-      <div className="p-10">
+      <div className="p-10" id="projects">
         <h1 className="text-4xl font-poppins mr-8 items-center text-center p-4">
           Selected Projects and Work of Laura Vollmer
         </h1>

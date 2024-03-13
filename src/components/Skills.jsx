@@ -10,7 +10,10 @@ import { BsPersonWorkspace } from "react-icons/bs";
 const Skills = () => {
   return (
     <div>
-      <section className="text-black-600 body-font items-center text-center">
+      <section
+        className="text-black-600 body-font items-center text-center"
+        id="skills"
+      >
         <div className="container px-5 py-24 mx-auto">
           <div
             className="flex flex-wrap w-half mb-5 flex-col items-center text-center"
