@@ -65,7 +65,7 @@ const Navigation = () => {
           >
             <AiFillLinkedin
               size={26}
-              className="lg:text-2xl hover:text-customColor hover:scale-110 transition duration-100"
+              className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
             />
           </a>
         </li>
@@ -77,7 +77,7 @@ const Navigation = () => {
           >
             <FaGithubSquare
               size={24}
-              className="lg:text-2xl hover:text-customColor hover:scale-110 transition duration-100"
+              className="md:text-6xl hover:text-customColor hover:scale-110 transition duration-100"
             />
           </a>
         </li>

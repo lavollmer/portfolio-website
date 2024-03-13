@@ -15,17 +15,22 @@ import Wrapped from "../assets/photography/wrappedflowers.jpeg";
 const Design = () => {
   return (
     <>
-      <div className="m-10 items-center" id="design">
+      <div className="md:mt-40 m-10 items-center" id="design">
         <h1 className="text-4xl md:text-6xl font-poppins items-center text-center m-10">
           Photography Gallery
         </h1>
         <div className="items-center">
           <div className="flex flex-col font-poppins text-left m-10">
-            <p className="text-md md:text-xl">
-              Some design work I have done includes working as a Floral Designer
-              in Twin Cities, being selected for Juried Exhibition in
-              Professional Art Gallery for photography, and being selected for
-              Exhibition in Community Art Gallery for photography.
+            <p className="text-md md:text-xl text-center items-center p-10">
+              I have showcased my visual design skills through floral
+              arrangements and photography, including being selected for juried
+              exhibitions in professional and community art galleries and
+              working as a floral designer.
+            </p>
+            <p className="text-md md:text-xl text-center items-center p-5 italic">
+              All images presented here are my original creations,
+              professionally photographed by me. Flower arrangements are
+              designed by me.
             </p>
           </div>
         </div>
@@ -35,14 +40,22 @@ const Design = () => {
               <img
                 className="h-auto max-w-full rounded-lg"
                 src={Grandmarais}
-                alt=""
+                alt="Serene sailboat gliding through the misty morning waters of Grand Marais, Minnesota"
               />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={Colorado} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Colorado}
+                alt="Colorado mountain top growing vibrant wildflowers under the warm daylight"
+              />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={Dahlia} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Dahlia}
+                alt="Orange Dahlia flower with fly on petals"
+              />
             </div>
           </div>
           <div class="grid gap-4">
@@ -50,14 +63,14 @@ const Design = () => {
               <img
                 class="h-auto max-w-full rounded-lg"
                 src={Chickadee}
-                alt=""
+                alt="Elegant floral arrangement showcased in a charming yellow chick vase, featuring a ensemble of roses and various blossoms"
               />
             </div>
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
                 src={FallFlowers}
-                alt=""
+                alt="Beautiful floral arrangement capturing autumn with red roses, eucalyptus, and a palette of fall colors"
               />
             </div>
             <div>

@@ -6,7 +6,7 @@ import ButtonWebsite from "./ButtonWebsite";
 const ProjectDisplay = () => {
   return (
     <>
-      <section className="flex flex-col m-10 justify-evenly" id="projects">
+      <section className="flex flex-col  m-10 justify-evenly" id="projects">
         <h1 className="text-xl md:text-4xl m-2 font-poppins items-center text-center p-4">
           Selected Coding Projects <br /> of Laura Vollmer
         </h1>
@@ -23,9 +23,8 @@ const ProjectDisplay = () => {
             <span>Laura Vollmer Github</span>
           </button>
         </a>
-        {/* grid container - 3 columns specified - gap of 6 units between columns */}
-        {/* <div className="grid grid-cols-3 gap-6 p-5 text-lg md:text-xl"> */}
-        <div className="flex flex-col space-y-6 px-5 py-24 mx-auto px-auto">
+        {/* grid container - 3 when medium sized or above columns specified - gap of 6 units between columns */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-5 py-24 mx-auto px-auto">
           <div className="bg-white shadow-lg rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
               Giftify
