@@ -1,5 +1,16 @@
 import React from "react";
-import Colorimage from "../assets/ColorBackground.jpg";
+import Dahlia from "../assets/photography/dahlia.jpg";
+import Chickadee from "../assets/photography/chickadee.jpg";
+import Colorado from "../assets/photography/colorado.jpg";
+import FallFlowers from "../assets/photography/fallflowers.jpg";
+import Grandmarais from "../assets/photography/grandmarais.jpg";
+import Sunrise from "../assets/photography/sunrise.jpg";
+import Tulips from "../assets/photography/tulips.jpg";
+import Sailboat from "../assets/photography/sailboat.jpg";
+import RedRose from "../assets/photography/redroses.jpg";
+import OrangeFlowers from "../assets/photography/orangeflowers.jpg";
+import MNFall from "../assets/photography/mnfall.jpg";
+import Wrapped from "../assets/photography/wrappedflowers.jpg";
 
 const Design = () => {
   return (
@@ -17,50 +28,65 @@ const Design = () => {
             <div>
               <img
                 className="h-auto max-w-full rounded-lg"
-                src={Colorimage}
+                src={Dahlia}
                 alt=""
               />
             </div>
             <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-        </div>
-    </div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Chickadee}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Grandmarais}
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={Colorado} alt="" />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={FallFlowers}
+                alt=""
+              />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={Sunrise} alt="" />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={Tulips} alt="" />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={Sailboat} alt="" />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={RedRose} alt="" />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={MNFall} alt="" />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={OrangeFlowers}
+                alt=""
+              />
+            </div>
+            <div>
+              <img class="h-auto max-w-full rounded-lg" src={Wrapped} alt="" />
+            </div>
           </div>
         </div>
       </div>
