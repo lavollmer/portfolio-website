@@ -37,7 +37,7 @@ const Navigation = () => {
             <nav className="text-2xl font-poppins m-10 font-bold flex flex-col justify-between w-full">
               <ul>
                 <li>
-                  <NavLink href="#project">PROJECTS</NavLink>
+                  <NavLink href="#projects">PROJECTS</NavLink>
                 </li>
                 <li>
                   <NavLink href="#about">ABOUT</NavLink>
