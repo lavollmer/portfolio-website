@@ -177,9 +177,9 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:ml-10 text-sm md:text-xl mx-auto text-black">
+        <div className="grid grid-cols-1 gap-4 md:ml-10 text-sm md:text-xl mx-auto text-black items-center text-center">
           <h1
-            className="text-xl md:text-3xl font-medium text-black items-left text-left p-2"
+            className="text-xl md:text-3xl font-medium text-black  p-2"
             id="work"
           >
             Professional Education
