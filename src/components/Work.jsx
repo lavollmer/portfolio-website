@@ -14,7 +14,7 @@ const Work = () => {
           <div className="-my-8 divide-y-2 divide-gray-100">
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="flex-wrap font-semibold title-font text-black text-left text-md">
+                <span className="flex-wrap font-semibold title-font text-black text-left text-sm md:text-md">
                   University of Minnesota Coding <br /> Full-Stack Bootcamp
                   Student
                 </span>
@@ -25,7 +25,7 @@ const Work = () => {
               <div className="md:flex-grow">
                 <ul>
                   <p className="leading-relaxed ml-4 text-left">
-                    <ul className="list-disc list-inside text-md">
+                    <ul className="list-disc list-inside text-sm md:text-md">
                       Technical skills obtained in a 12-week intensive full-time
                       coding bootcamp: JavaScript, HTML5, CSS, Agile project
                       management, Microsoft Office Suite, Chrome Developer
@@ -44,7 +44,7 @@ const Work = () => {
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-black text-left text-md">
+                <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Floral Designer
                 </span>
                 <span className="mt-3 text-gray-500 text-sm text-left">
@@ -53,8 +53,8 @@ const Work = () => {
               </div>
               <div className="md:flex-grow">
                 <ul>
-                  <p className="leading-relaxed ml-4 text-left">
-                    <li className="list-disc list-inside">
+                  <p className="leading-relaxed ml-4 text-left text-sm md:text-md">
+                    <li className="list-disc list-inside ">
                       Effectively communicated with a diverse customer base of
                       over a thousand individuals through various channels with
                       a commitment to providing exceptional customer service and
@@ -79,7 +79,7 @@ const Work = () => {
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-black text-left">
+                <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Manager of Clinical Content
                 </span>
                 <span className="mt-3 text-gray-500 text-sm text-left">
@@ -88,7 +88,7 @@ const Work = () => {
               </div>
               <div className="md:flex-grow">
                 <ul>
-                  <p className="leading-relaxed ml-4 text-left">
+                  <p className="leading-relaxed ml-4 text-left text-sm md:text-md">
                     <li className="list-disc list-inside">
                       Demonstrated a strong work ethic mindset by methodically
                       monitoring monthly changes in over 1,000 medication
@@ -113,7 +113,7 @@ const Work = () => {
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-black text-left">
+                <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Fact-Checker
                 </span>
                 <span className="mt-3 text-gray-500 text-sm text-left">
@@ -122,7 +122,7 @@ const Work = () => {
               </div>
               <div className="md:flex-grow">
                 <ul>
-                  <p className="leading-relaxed ml-4 text-left">
+                  <p className="leading-relaxed ml-4 text-left text-sm md:text-md">
                     <li className="list-disc list-inside">
                       Ensured accuracy, scientific citation adherence, and
                       suitability for all audiences by reviewing and revising
@@ -143,7 +143,7 @@ const Work = () => {
             </div>
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-black text-left">
+                <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Clinical Pharmacy Specialist,
                   <br /> Medication Use
                 </span>
@@ -153,7 +153,7 @@ const Work = () => {
               </div>
               <div className="md:flex-grow">
                 <ul>
-                  <p className="leading-relaxed ml-4 text-left">
+                  <p className="leading-relaxed ml-4 text-left text-sm md:text-md">
                     <li className="list-disc list-inside">
                       Developed, wrote, and implemented multiple policies,
                       procedures, and best practices to optimize medication
@@ -178,9 +178,8 @@ const Work = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-4 md:ml-10 text-sm md:text-xl mx-auto text-black">
-          {/* <div className="flex flex-col  space-y-8 text-sm md:text-xl md:p-2"> */}
           <h1
-            className=" text-3xl font-medium text-black items-left text-left p-2"
+            className="text-xl md:text-3xl font-medium text-black items-left text-left p-2"
             id="work"
           >
             Professional Education

@@ -15,12 +15,12 @@ import Wrapped from "../assets/photography/wrappedflowers.jpeg";
 const Design = () => {
   return (
     <>
-      <div className="md:mt-40 m-10 items-center" id="design">
-        <h1 className="text-4xl md:text-6xl font-poppins items-center text-center m-10">
+      <div className="md:mt-40 mt-10 items-center" id="design">
+        <h1 className="text-3xl md:text-6xl font-poppins items-center text-center md:m-10">
           Photography Gallery
         </h1>
         <div className="items-center">
-          <div className="flex flex-col font-poppins text-left m-10">
+          <div className="flex flex-col font-poppins text-left md:m-10">
             <p className="text-md md:text-xl text-center items-center p-10">
               I have showcased my visual design skills through floral
               arrangements and photography, including being selected for juried
@@ -34,7 +34,7 @@ const Design = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-4">
           <div className="grid gap-4">
             <div>
               <img
