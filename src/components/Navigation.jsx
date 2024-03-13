@@ -31,24 +31,24 @@ const Navigation = () => {
         {showMenu && (
           <animated.div
             style={sidebarAnimation}
-            className="absolute top-0 right-0 bg-white text-black w-1/4 h-screen"
+            className="absolute top-0 right-0 bg-white text-black w-1/2 z-50 md:w-1/4 h-screen"
           >
             <button onClick={() => setShowMenu(false)}>
               <AiOutlineClose size={30} />
             </button>
-            <nav className="text-2xl font-poppins m-10 font-bold flex flex-col justify-between w-full">
+            <nav className="text-md md:text-2xl font-poppins m-5 md:m-10 font-bold flex flex-col justify-between w-full">
               <ul>
                 <li>
                   <a href="#projects">PROJECTS</a>
-                </li>
-                <li>
-                  <a href="#about">ABOUT</a>
                 </li>
                 <li>
                   <a href="#skills">SKILLS</a>
                 </li>
                 <li>
                   <a href="#design">PHOTOGRAPHY</a>
+                </li>
+                <li>
+                  <a href="#about">ABOUT</a>
                 </li>
                 <li>
                   <a href="#contact">CONTACT</a>
