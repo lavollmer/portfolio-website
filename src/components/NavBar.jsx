@@ -5,19 +5,39 @@ const NavBar = () => {
     <header className="flex text-gray-600 body-font space-x-5">
       <div className="container mx-auto w-full h-full flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto p-1">
-          <a className="mr-5 hover:black-900" href="#about">
+          <a
+            className="mr-5 hover:black-900"
+            href="#about"
+            aria-label="Read more about Laura Vollmer's coding projects"
+          >
             Projects
           </a>
-          <a className="mr-5 hover:black-900" href="#skills">
+          <a
+            className="mr-5 hover:black-900"
+            href="#skills"
+            aria-label="Read more about Laura Vollmer's skills"
+          >
             Skills
           </a>
-          <a className="mr-5 hover:black-900" href="#projects">
+          <a
+            className="mr-5 hover:black-900"
+            href="#projects"
+            aria-label="Read more about Laura Vollmer background"
+          >
             About
           </a>
-          <a className="mr-5 hover:black-900" href="#work">
+          <a
+            className="mr-5 hover:black-900"
+            href="#work"
+            aria-label="Read more about Laura Vollmer's work experience"
+          >
             Work
           </a>
-          <a className="hover:black-900" href="#contact">
+          <a
+            className="hover:black-900"
+            href="#contact"
+            aria-label="Contact Laura Vollmer for more information about her work or to collaborate on a project."
+          >
             Contact
           </a>
         </nav>
@@ -25,7 +45,10 @@ const NavBar = () => {
           Laura Vollmer
         </span>
         <div className="flex p-1 lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0 space-x-5">
-          <a href="https://www.linkedin.com/in/lvollmer/">
+          <a
+            href="https://www.linkedin.com/in/lvollmer/"
+            aria-label="Read more about Laura Vollmer's LinkedIn profile by visiting her page"
+          >
             <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-900 rounded text-base mt-4 md:mt-0">
               LinkedIn
               <svg
@@ -41,7 +64,10 @@ const NavBar = () => {
               </svg>
             </button>
           </a>
-          <a href="https://github.com/lavollmer">
+          <a
+            href="https://github.com/lavollmer"
+            aria-label="Read more about Laura Vollmer's Github by visiting her page"
+          >
             <button className="inline-flex items-center bg-black text-white border-0 py-1 px-3 focus:outline-none hover:bg-green-900  rounded text-base mt-4 md:mt-0">
               Github
               <svg

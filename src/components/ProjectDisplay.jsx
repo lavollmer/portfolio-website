@@ -16,6 +16,7 @@ const ProjectDisplay = () => {
         </h2>
         <a
           href="https://github.com/lavollmer"
+          aria-label="Laura Vollmer Github"
           className="flex flex-col justify-center items-center text-center mt-3"
         >
           <button className="flex flex-row align-items text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-[#957fef] rounded text-lg">
@@ -36,13 +37,17 @@ const ProjectDisplay = () => {
             </p>
             <a
               href="https://github.com/lavollmer/gift-guide"
+              aria-label="Laura Vollmer Github Gift-Guide Repository"
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
                 <Button url="www.linkedin.com" />
               </div>
             </a>
-            <a href="https://gift-guide-020589889d66.herokuapp.com/">
+            <a
+              href="https://gift-guide-020589889d66.herokuapp.com/"
+              aria-label="Laura Vollmer Gift-Guide Website"
+            >
               <div className="flex flex-row justify-center p-2">
                 <ButtonWebsite />
               </div>
@@ -59,13 +64,17 @@ const ProjectDisplay = () => {
             </p>
             <a
               href="https://github.com/lavollmer/robot-murder-mystery"
+              aria-label="Laura Vollmer Github Robot Murder Mystery Repository"
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
                 <Button />
               </div>
             </a>
-            <a href="https://franklinbrad.github.io/robot-murder-mystery/">
+            <a
+              href="https://franklinbrad.github.io/robot-murder-mystery/"
+              aria-label="Laura Vollmer Robot Murder Mystery Website"
+            >
               <div className="flex flex-row justify-center p-2">
                 <ButtonWebsite />
               </div>
@@ -83,13 +92,17 @@ const ProjectDisplay = () => {
             </p>
             <a
               href="https://github.com/lavollmer/note-taker?tab=readme-ov-file"
+              aria-label="Laura Vollmer Github Note Taking Application Repository"
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
                 <Button />
               </div>
             </a>
-            <a href="https://noter-taker-d6c57055bb47.herokuapp.com/">
+            <a
+              href="https://noter-taker-d6c57055bb47.herokuapp.com/"
+              aria-label="Laura Vollmer Github Note Taking Application Website"
+            >
               <div className="flex flex-row justify-center p-2">
                 <ButtonWebsite />
               </div>
@@ -109,13 +122,17 @@ const ProjectDisplay = () => {
             </p>
             <a
               href="https://github.com/lavollmer/timed-quiz?tab=readme-ov-file"
+              aria-label="Laura Vollmer Github Timed Quiz Repository"
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
                 <Button />
               </div>
             </a>
-            <a href="https://lavollmer.github.io/timed-quiz/">
+            <a
+              href="https://lavollmer.github.io/timed-quiz/"
+              aria-label="Laura Vollmer Timed Quiz Website"
+            >
               <div className="flex flex-row justify-center p-2">
                 <ButtonWebsite />
               </div>
@@ -134,13 +151,17 @@ const ProjectDisplay = () => {
             </p>
             <a
               href="https://github.com/lavollmer/logo-maker?tab=readme-ov-file"
+              aria-label="Laura Vollmer Github Logo Maker Repository"
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
                 <Button />
               </div>
             </a>
-            <a href="https://drive.google.com/file/d/1RZFH9m08NgvzWOmgTfGifvGVV8TT4nzT/view">
+            <a
+              href="https://drive.google.com/file/d/1RZFH9m08NgvzWOmgTfGifvGVV8TT4nzT/view"
+              aria-label="Laura Vollmer Logo Maker Walkthrough Video"
+            >
               <div className="flex flex-row justify-center p-2">
                 <ButtonWebsite />
               </div>
@@ -159,13 +180,17 @@ const ProjectDisplay = () => {
             </p>
             <a
               href="https://github.com/lavollmer/schedule-calendar?tab=readme-ov-file"
+              aria-label="Laura Vollmer Github Schedule Calendar Repository"
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
                 <Button />
               </div>
             </a>
-            <a href="https://lavollmer.github.io/schedule-calendar/">
+            <a
+              href="https://lavollmer.github.io/schedule-calendar/"
+              aria-label="Laura Vollmer Schedule Calendar Website"
+            >
               <div className="flex flex-row justify-center p-2">
                 <ButtonWebsite />
               </div>
