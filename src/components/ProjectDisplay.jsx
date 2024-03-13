@@ -41,7 +41,7 @@ const ProjectDisplay = () => {
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
-                <Button url="www.linkedin.com" />
+                <Button id="Gift Guide Github Code Button" />
               </div>
             </a>
             <a
@@ -49,7 +49,7 @@ const ProjectDisplay = () => {
               aria-label="Laura Vollmer Gift-Guide Website"
             >
               <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite />
+                <ButtonWebsite id="Gift Guide Website Button" />
               </div>
             </a>
           </div>
@@ -68,7 +68,7 @@ const ProjectDisplay = () => {
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
-                <Button />
+                <Button id="Robot Murder Mystery Github Code Button" />
               </div>
             </a>
             <a
@@ -76,7 +76,7 @@ const ProjectDisplay = () => {
               aria-label="Laura Vollmer Robot Murder Mystery Website"
             >
               <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite />
+                <ButtonWebsite id="Robot Murder Mystery Website Button" />
               </div>
             </a>
           </div>
@@ -96,7 +96,7 @@ const ProjectDisplay = () => {
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
-                <Button />
+                <Button id="Note Taking Application Github Code Button" />
               </div>
             </a>
             <a
@@ -104,7 +104,7 @@ const ProjectDisplay = () => {
               aria-label="Laura Vollmer Github Note Taking Application Website"
             >
               <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite />
+                <ButtonWebsite id="Note Taking Website Button" />
               </div>
             </a>
           </div>
@@ -126,7 +126,7 @@ const ProjectDisplay = () => {
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
-                <Button />
+                <Button id="Timed Quiz Github Code Button" />
               </div>
             </a>
             <a
@@ -134,7 +134,7 @@ const ProjectDisplay = () => {
               aria-label="Laura Vollmer Timed Quiz Website"
             >
               <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite />
+                <ButtonWebsite id="Timed Quiz Website Button" />
               </div>
             </a>
           </div>
@@ -155,7 +155,7 @@ const ProjectDisplay = () => {
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
-                <Button />
+                <Button id="Logo Maker Github Code Button" />
               </div>
             </a>
             <a
@@ -163,7 +163,7 @@ const ProjectDisplay = () => {
               aria-label="Laura Vollmer Logo Maker Walkthrough Video"
             >
               <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite />
+                <ButtonWebsite id="Logo Maker Video Submission Button" />
               </div>
             </a>
           </div>
@@ -184,7 +184,7 @@ const ProjectDisplay = () => {
               className="flex flex-col justify-center items-center mt-3"
             >
               <div className="flex flex-row justify-center p-2">
-                <Button />
+                <Button id="Schedule Calendar Github Code Button" />
               </div>
             </a>
             <a
@@ -192,7 +192,7 @@ const ProjectDisplay = () => {
               aria-label="Laura Vollmer Schedule Calendar Website"
             >
               <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite />
+                <ButtonWebsite id="Schedule Calendar Website Button" />
               </div>
             </a>
           </div>
