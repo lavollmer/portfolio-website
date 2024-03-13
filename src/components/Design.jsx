@@ -74,33 +74,57 @@ const Design = () => {
               />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={Sunrise} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Sunrise}
+                alt="Minnesota sunrise showcasing vibrant orange, purple, and yellow hues painting the sky over a calm lake"
+              />
             </div>
           </div>
           <div class="grid gap-4">
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={Tulips} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Tulips}
+                alt="Close-up view of three tulips with orange and yellow hues at Minnesota Arboretum"
+              />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={Sailboat} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Sailboat}
+                alt="Sailboat docked in Grand Marais Minnesota in early morning"
+              />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={RedRose} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={RedRose}
+                alt="Two hands holding miniature red roses that have just bloomed in the garden"
+              />
             </div>
           </div>
           <div class="grid gap-4">
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={MNFall} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={MNFall}
+                alt="Fall scenery of a gorgeous lake with a duck swimming across its surface"
+              />
             </div>
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
                 src={OrangeFlowers}
-                alt=""
+                alt="Beautiful orange daisies"
               />
             </div>
             <div>
-              <img class="h-auto max-w-full rounded-lg" src={Wrapped} alt="" />
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={Wrapped}
+                alt="A floral arrangement wrapped in paper consisting of a variety of flowers"
+              />
             </div>
           </div>
         </div>
