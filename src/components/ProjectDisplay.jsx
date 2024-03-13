@@ -25,8 +25,8 @@ const ProjectDisplay = () => {
         </a>
       </div>
       {/* grid container - 3 columns specified - gap of 6 units between columns */}
-      <div className="grid grid-cols-3 gap-6">
-        <div className="bg-white shadow-lg rounded-lg p-4">
+      <div className="grid grid-cols-3 gap-6 p-5">
+        <div className="bg-white shadow-lg rounded-lg ">
           <h3 className="items-center text-center text-poppins text-2xl">
             Giftify
           </h3>
@@ -49,7 +49,7 @@ const ProjectDisplay = () => {
             </div>
           </a>
         </div>
-        <div className="bg-white shadow-md rounded-lg m-4">
+        <div className="bg-white shadow-md rounded-lg ">
           <h3 className="items-center text-center text-poppins text-2xl ">
             Robot Murder Mystery
           </h3>
@@ -72,14 +72,13 @@ const ProjectDisplay = () => {
             </div>
           </a>
         </div>
-        <div className="bg-white shadow-md rounded-lg m-4">
+        <div className="bg-white shadow-md rounded-lg ">
           <h3 className="items-center text-center text-poppins text-2xl ">
             Note Taking Application
           </h3>
           <p className="p-6">
             The goal of the project is to create a js file that connects the
-            front-end with the back-end functionality. The note taker
-            application opens with a entry screen. When the user clicks "get
+            front-end with the back-end functionality. When the user clicks "get
             started", they are brought to an area to take notes, save notes and
             delete the notes.
           </p>
@@ -97,7 +96,7 @@ const ProjectDisplay = () => {
             </div>
           </a>
         </div>
-        <div className="bg-white shadow-md rounded-lg m-4">
+        <div className="bg-white shadow-md rounded-lg ">
           <h3 className="items-center text-center text-poppins text-2xl ">
             Timed Quiz
           </h3>
@@ -124,7 +123,7 @@ const ProjectDisplay = () => {
             </div>
           </a>
         </div>
-        <div className="bg-white shadow-md rounded-lg m-4">
+        <div className="bg-white shadow-md rounded-lg ">
           <h3 className="items-center text-center text-poppins text-2xl ">
             Logo Maker
           </h3>
@@ -151,7 +150,7 @@ const ProjectDisplay = () => {
             </div>
           </a>
         </div>
-        <div className="bg-white shadow-md rounded-lg m-4">
+        <div className="bg-white shadow-md rounded-lg ">
           <h3 className="items-center text-center text-poppins text-2xl ">
             Schedule Calendar
           </h3>
