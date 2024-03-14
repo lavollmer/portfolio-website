@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A solo web development portfolio website created with React.js, TailwindCSS, Vite and JavaScript. The website has a modern interface and is user-friendly. The portfolio includes a Home Page, About, Projects, Technical Skills, Photography Gallery and Contact section. Each section was crafted with care and each section is constantly being updated or worked on.
+A modern and user-friendly web development portfolio website crafted with ReactJS, TailwindCSS, Vite, and JavaScript. This solo project showcases a sleek, user-friendly and mobile-responsive interface. The portfolio encompasses a Home Page, Navigation, About, Projects, Technical Skills, Photography Gallery, and Contact section. Each section has been meticulously created with care and is continuously updated to ensure an engaging experience.
 
 ## Table of Contents
 
@@ -28,6 +28,7 @@ To run and use this project, you will need to have the following prerequisites a
 - FontAwesome Icons
 - Google Fonts
 - ScrollToTop
+- EmailJS
 
 Please ensure that you have these components and libraries installed and properly configured on your system before proceeding with the installation and usage of this project. You may need to install them using package managers like npm or yarn. Refer to their respective documentation for installation instructions.
 
@@ -100,12 +101,12 @@ If you have any questions, suggestions, or issues regarding this project, please
 
 ## Acknowledgements
 
-Third parties utilized:
+I extend gratitude to all the individuals, communities, and organizations that have inspired and supported me throughout the development of this project. Your contributions have played a significant role in its success.
 
-- Background image is from: https://unsplash.com/photos/a-pink-and-blue-background-with-a-lot-of-bubbles-2dyR13FNg2I
+- Background Image Unsplash: https://unsplash.com/photos/a-pink-and-blue-background-with-a-lot-of-bubbles-2dyR13FNg2I
 - Tailblocks: https://tailblocks.cc/
 - React-Type-Animation: https://www.npmjs.com/package/react-type-animation
-- Coolors
+- Coolors optimized color palette generator
 - FontAwesome Icons: https://fontawesome.com/icons/mug-saucer?f=classic&s=solid
 - Google Fonts: Poppins
 - ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
