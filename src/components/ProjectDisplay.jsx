@@ -121,23 +121,24 @@ const ProjectDisplay = () => {
               answer will be documented whether it is correct or incorrect and
               tallied to the final score.
             </p>
+            <div className="flex flex-row justify-center p-2"></div>
             <a
               href="https://github.com/lavollmer/timed-quiz?tab=readme-ov-file"
               aria-label="Laura Vollmer Github Timed Quiz Repository"
               className="flex flex-col justify-center items-center mt-3"
-            >
-              <div className="flex flex-row justify-center p-2">
+            > 
                 <Button id="Timed Quiz Github Code Button" />
-              </div>
             </a>
-            <a
+             </div>
+            <div className="flex flex-row justify-center p-2">
+              <a
               href="https://lavollmer.github.io/timed-quiz/"
               aria-label="Laura Vollmer Timed Quiz Website"
             >
-              <div className="flex flex-row justify-center p-2">
-                <ButtonWebsite id="Timed Quiz Website Button" />
+              <ButtonWebsite id="Timed Quiz Website Button" />
+              </a>
               </div>
-            </a>
+
           </div>
           <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
@@ -180,23 +181,23 @@ const ProjectDisplay = () => {
               blocked off in color indicating past, present, and future time
               compared to the current time of day.
             </p>
-            <a
-              href="https://github.com/lavollmer/schedule-calendar?tab=readme-ov-file"
-              aria-label="Laura Vollmer Github Schedule Calendar Repository"
-              className="flex flex-col justify-center items-center mt-3"
-            >
-              <div className="flex flex-row justify-center p-2">
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/schedule-calendar?tab=readme-ov-file"
+                aria-label="Laura Vollmer Github Schedule Calendar Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
                 <Button id="Schedule Calendar Github Code Button" />
-              </div>
-            </a>
-            <a
-              href="https://lavollmer.github.io/schedule-calendar/"
-              aria-label="Laura Vollmer Schedule Calendar Website"
-            >
-              <div className="flex flex-row justify-center p-2">
+              </a>
+            </div>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://lavollmer.github.io/schedule-calendar/"
+                aria-label="Laura Vollmer Schedule Calendar Website"
+              >
                 <ButtonWebsite id="Schedule Calendar Website Button" />
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       </section>
