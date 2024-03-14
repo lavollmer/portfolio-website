@@ -45,60 +45,60 @@ const Design = () => {
             </div>
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Walker}
                 alt="Walker Art Museum in Minneapolis"
               />
             </div>
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Colorado}
                 alt="Beautiful Colorado mountains with a wildflowers in the foreground"
               />
             </div>
           </div>
-          <div class="grid gap-4">
+          <div className="grid gap-4">
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Chickadee}
                 alt="Elegant floral arrangement showcased in a charming yellow chick vase, featuring a ensemble of roses and various blossoms"
               />
             </div>
             {/* <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Peonies}
                 alt="Beautiful peonies"
               />
             </div> */}
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={FallFlowers}
                 alt="Beautiful floral arrangement capturing autumn with red roses, eucalyptus, and a palette of fall colors"
               />
             </div>
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Sunrise}
                 alt="Minnesota sunrise showcasing vibrant orange, purple, and yellow hues painting the sky over a calm lake"
               />
               {/* <div>
                 <img
-                  class="h-auto max-w-full rounded-lg"
+                  className="h-auto max-w-full rounded-lg"
                   src={Walker}
                   alt="Walker Art Museum in Minneapolis"
                 />
               </div> */}
             </div>
           </div>
-          <div class="grid gap-4">
+          <div className="grid gap-4">
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Tulips}
                 alt="Close-up view of three tulips with orange and yellow hues at Minnesota Arboretum"
               />
@@ -106,7 +106,7 @@ const Design = () => {
 
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Sailboat}
                 alt="Sailboat docked in Grand Marais Minnesota in early morning"
               />
@@ -114,30 +114,30 @@ const Design = () => {
 
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={RedRose}
                 alt="Two hands holding miniature red roses that have just bloomed in the garden"
               />
             </div>
           </div>
-          <div class="grid gap-4">
+          <div className="grid gap-4">
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Cherry}
                 alt="Iconic cherry spoon sculpture at the Minneapolis Sculpture Garden"
               />
             </div>
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={OrangeFlowers}
                 alt="Beautiful orange daisies"
               />
             </div>
             <div>
               <img
-                class="h-auto max-w-full rounded-lg"
+                className="h-auto max-w-full rounded-lg"
                 src={Wrapped}
                 alt="A floral arrangement wrapped in paper consisting of a variety of flowers"
               />
