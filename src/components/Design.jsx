@@ -4,12 +4,12 @@ import Colorado from "../assets/photography/colorado.avif";
 import FallFlowers from "../assets/photography/fallflowers.avif";
 import Grandmarais from "../assets/photography/grandmarais.avif";
 import Sunrise from "../assets/photography/sunrise.avif";
-import Tulips from "../assets/photography/tulips.jpeg";
-import Sailboat from "../assets/photography/sailboat.jpeg";
-import RedRose from "../assets/photography/redroses.jpeg";
-import OrangeFlowers from "../assets/photography/orangeflowers.jpeg";
-import Wrapped from "../assets/photography/wrappedflowers.jpeg";
-import Walker from "../assets/photography/walkerartmuseum.jpeg";
+import Tulips from "../assets/photography/tulips.avif";
+import Sailboat from "../assets/photography/sailboat.avif";
+import RedRose from "../assets/photography/redroses.avif";
+import OrangeFlowers from "../assets/photography/orangeflowers.avif";
+import Wrapped from "../assets/photography/wrappedflowers.avif";
+import Walker from "../assets/photography/walkerartmuseum.avif";
 import Cherry from "../assets/photography/cherryspoon.avif";
 
 const Design = () => {
