@@ -150,23 +150,24 @@ const ProjectDisplay = () => {
               using inquirer, jest, and writeFile SVG. Each image generated is a
               300x200 pixel image size.
             </p>
-            <a
-              href="https://github.com/lavollmer/logo-maker?tab=readme-ov-file"
-              aria-label="Laura Vollmer Github Logo Maker Repository"
-              className="flex flex-col justify-center items-center mt-3"
-            >
-              <div className="flex flex-row justify-center p-2">
+
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/logo-maker?tab=readme-ov-file"
+                aria-label="Laura Vollmer Github Logo Maker Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
                 <Button id="Logo Maker Github Code Button" />
-              </div>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1RZFH9m08NgvzWOmgTfGifvGVV8TT4nzT/view"
-              aria-label="Laura Vollmer Logo Maker Walkthrough Video"
-            >
-              <div className="flex flex-row justify-center p-2">
+              </a>
+            </div>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://drive.google.com/file/d/1RZFH9m08NgvzWOmgTfGifvGVV8TT4nzT/view"
+                aria-label="Laura Vollmer Logo Maker Walkthrough Video"
+              >
                 <ButtonWebsite id="Logo Maker Video Submission Button" />
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
           <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
