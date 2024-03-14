@@ -18,27 +18,25 @@ const Work = () => {
                   University of Minnesota Coding <br /> Full-Stack Bootcamp
                   Student
                 </span>
-                <span className="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-black text-sm text-left">
                   Sep 2023 - Dec 2023
                 </span>
               </div>
               <div className="md:flex-grow">
-                <ul>
-                  <ul className="list-disc list-inside text-sm md:text-md">
-                    <p className="leading-relaxed ml-4 text-left">
-                      Technical skills obtained in a 12-week intensive full-time
-                      coding bootcamp: JavaScript, HTML5, CSS, Agile project
-                      management, Microsoft Office Suite, Chrome Developer
-                      Tools, Object Oriented Programming, client-side web
-                      development, React.js, RESTful JSON APIs, Express, Git,
-                      GitHub, MySQL, MVC Framework, Git Version Control Tailwind
-                      CSS, Vite, jQuery, Bootstrap, Chakra UI, Sequelize,
-                      MongoDB, Node.js, MERN Stack, POSTMAN, Heroku, and Netifly
-                      deployment, project management methodologies, backend and
-                      frontend development, understanding of software
-                      development lifecycle, remote work experience
-                    </p>
-                  </ul>
+                <ul className="list-disc list-inside text-sm md:text-md">
+                  <p className="leading-relaxed ml-4 text-left">
+                    Technical skills obtained in a 12-week intensive full-time
+                    coding bootcamp: JavaScript, HTML5, CSS, Agile project
+                    management, Microsoft Office Suite, Chrome Developer Tools,
+                    Object Oriented Programming, client-side web development,
+                    React.js, RESTful JSON APIs, Express, Git, GitHub, MySQL,
+                    MVC Framework, Git Version Control Tailwind CSS, Vite,
+                    jQuery, Bootstrap, Chakra UI, Sequelize, MongoDB, Node.js,
+                    MERN Stack, POSTMAN, Heroku, and Netifly deployment, project
+                    management methodologies, backend and frontend development,
+                    understanding of software development lifecycle, remote work
+                    experience
+                  </p>
                 </ul>
               </div>
             </div>
@@ -47,7 +45,7 @@ const Work = () => {
                 <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Floral Designer
                 </span>
-                <span className="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-black text-sm text-left">
                   2022 - 2023
                 </span>
               </div>
@@ -82,7 +80,7 @@ const Work = () => {
                 <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Manager of Clinical Content
                 </span>
-                <span className="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-black text-sm text-left">
                   2020 - 2021
                 </span>
               </div>
@@ -116,7 +114,7 @@ const Work = () => {
                 <span className="font-semibold title-font text-black text-left text-sm md:text-md">
                   Fact-Checker
                 </span>
-                <span className="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-black text-sm text-left">
                   2019 - 2020
                 </span>
               </div>
@@ -147,7 +145,7 @@ const Work = () => {
                   Clinical Pharmacy Specialist,
                   <br /> Medication Use
                 </span>
-                <span className="mt-3 text-gray-500 text-sm text-left">
+                <span className="mt-3 text-black text-sm text-left">
                   2017 - 2019
                 </span>
               </div>
