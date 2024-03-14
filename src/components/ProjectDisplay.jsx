@@ -100,14 +100,14 @@ const ProjectDisplay = () => {
                 <Button id="Note Taking Application Github Code Button" />
               </a>
             </div>
-            <a
-              href="https://noter-taker-d6c57055bb47.herokuapp.com/"
-              aria-label="Laura Vollmer Github Note Taking Application Website"
-            >
-              <div className="flex flex-row justify-center p-2">
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://noter-taker-d6c57055bb47.herokuapp.com/"
+                aria-label="Laura Vollmer Github Note Taking Application Website"
+              >
                 <ButtonWebsite id="Note Taking Website Button" />
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
           <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">

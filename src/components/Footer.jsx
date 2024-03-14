@@ -21,6 +21,8 @@ const Footer = () => {
               href="https://www.linkedin.com/in/lvollmer/"
               aria-label="LinkedIn Link"
               className="text-black flex flex-col justify-content items-center m-2"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <FaLinkedin size={28} />
               LinkedIn
@@ -29,6 +31,8 @@ const Footer = () => {
               href="https://github.com/lavollmer"
               aria-label="Github Link"
               className=" text-black flex flex-col justify-content items-center m-2"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <FaGithubSquare size={28} /> Github
             </a>

@@ -54,6 +54,8 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/lvollmer/"
                 className="font-bold text-[#957fef]"
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 <span> LinkedIn </span>
               </a>
@@ -61,6 +63,8 @@ const Contact = () => {
               <a
                 href="https://github.com/lavollmer"
                 className="font-bold text-[#957fef]"
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 <span> Github </span>
               </a>
