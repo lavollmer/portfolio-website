@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
-import { useSpring, animated } from "react-spring";
+import { useSpring } from "react-spring";
 
 const MainPage = () => {
   const props = useSpring({

@@ -2,11 +2,8 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   extend: {
-    fontFamily:{
-      'poppins': ['Poppins', 'sans-serif']
-    },
-    colors: {
-      customColor: '#DD8BD8',
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
     },
   },
   theme: {
