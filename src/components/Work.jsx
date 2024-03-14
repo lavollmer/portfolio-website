@@ -24,8 +24,8 @@ const Work = () => {
               </div>
               <div className="md:flex-grow">
                 <ul>
-                  <p className="leading-relaxed ml-4 text-left">
-                    <ul className="list-disc list-inside text-sm md:text-md">
+                  <ul className="list-disc list-inside text-sm md:text-md">
+                    <p className="leading-relaxed ml-4 text-left">
                       Technical skills obtained in a 12-week intensive full-time
                       coding bootcamp: JavaScript, HTML5, CSS, Agile project
                       management, Microsoft Office Suite, Chrome Developer
@@ -37,8 +37,8 @@ const Work = () => {
                       deployment, project management methodologies, backend and
                       frontend development, understanding of software
                       development lifecycle, remote work experience
-                    </ul>
-                  </p>
+                    </p>
+                  </ul>
                 </ul>
               </div>
             </div>
