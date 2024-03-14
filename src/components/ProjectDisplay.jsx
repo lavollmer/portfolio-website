@@ -121,24 +121,23 @@ const ProjectDisplay = () => {
               answer will be documented whether it is correct or incorrect and
               tallied to the final score.
             </p>
-            <div className="flex flex-row justify-center p-2"></div>
-            <a
-              href="https://github.com/lavollmer/timed-quiz?tab=readme-ov-file"
-              aria-label="Laura Vollmer Github Timed Quiz Repository"
-              className="flex flex-col justify-center items-center mt-3"
-            > 
-                <Button id="Timed Quiz Github Code Button" />
-            </a>
-             </div>
             <div className="flex flex-row justify-center p-2">
               <a
-              href="https://lavollmer.github.io/timed-quiz/"
-              aria-label="Laura Vollmer Timed Quiz Website"
-            >
-              <ButtonWebsite id="Timed Quiz Website Button" />
+                href="https://github.com/lavollmer/timed-quiz?tab=readme-ov-file"
+                aria-label="Laura Vollmer Github Timed Quiz Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
+                <Button id="Timed Quiz Github Code Button" />
               </a>
-              </div>
-
+            </div>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://lavollmer.github.io/timed-quiz/"
+                aria-label="Laura Vollmer Timed Quiz Website"
+              >
+                <ButtonWebsite id="Timed Quiz Website Button" />
+              </a>
+            </div>
           </div>
           <div className="bg-white shadow-md rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-lg md:text-2xl ">
