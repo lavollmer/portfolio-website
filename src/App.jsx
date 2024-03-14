@@ -1,16 +1,18 @@
+//import components
+import Navigation from "./components/Navigation";
 import MainPage from "./components/MainPage";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import ProjectDisplay from "./components/ProjectDisplay";
+import Skills from "./components/Skills";
+import Design from "./components/Design";
 import About from "./components/About";
 import Work from "./components/Work";
-import Skills from "./components/Skills";
-import Navigation from "./components/Navigation";
-import Background from "../src/assets/ColorBackground.jpg";
-import ProjectDisplay from "./components/ProjectDisplay";
-import Design from "./components/Design";
-import { BrowserRouter } from "react-router-dom";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-import "./App.css";
+//import Background image for cover
+import Background from "../src/assets/ColorBackground.jpg";
+//import BrowserRouter for routing
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
