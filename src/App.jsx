@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 //import Background image for cover
-import Background from "../src/assets/ColorBackground.jpg";
+import Background from "../src/assets/ColorBackground.avif";
 //import BrowserRouter for routing
 import { BrowserRouter } from "react-router-dom";
 

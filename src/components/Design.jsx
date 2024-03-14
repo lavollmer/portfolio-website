@@ -1,5 +1,5 @@
 import React from "react";
-import Chickadee from "../assets/photography/chickadee.jpeg";
+import Chickadee from "../assets/photography/chickadee.avif";
 import Colorado from "../assets/photography/colorado.jpeg";
 import FallFlowers from "../assets/photography/fallflowers.jpeg";
 import Grandmarais from "../assets/photography/grandmarais.jpeg";
@@ -10,7 +10,7 @@ import RedRose from "../assets/photography/redroses.jpeg";
 import OrangeFlowers from "../assets/photography/orangeflowers.jpeg";
 import Wrapped from "../assets/photography/wrappedflowers.jpeg";
 import Walker from "../assets/photography/walkerartmuseum.jpeg";
-import Cherry from "../assets/photography/cherryspoon.jpeg";
+import Cherry from "../assets/photography/cherryspoon.avif";
 
 const Design = () => {
   return (
