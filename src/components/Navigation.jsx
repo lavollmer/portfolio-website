@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
@@ -8,8 +7,13 @@ import { useSpring, animated } from "react-spring";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Navigation = () => {
+  //
   const [showMenu, setShowMenu] = useState(false);
 
+  //useSpring is a hook that allows us to animate components
+  //when showMenu is true the sidebar will be shown - which means the sidebar will be moved to the left by 0 pixels
+  //if showMenu is false - means the sidebar will be moved to the right by 100% of its width
+  //sidebarAnimation variable stores the result of calling the useSpring hook
   const sidebarAnimation = useSpring({
     transform: showMenu ? `translateX(0)` : `translateX(100%)`,
   });
