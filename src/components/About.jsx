@@ -1,5 +1,5 @@
 import React from "react";
-import LauraVolProfile from "../assets/lauravolprofile.png";
+import LauraVolProfile from "../assets/lauravolprofile.avif";
 
 const About = () => {
   return (
