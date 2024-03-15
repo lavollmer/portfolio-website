@@ -53,7 +53,7 @@ const Contact = () => {
               Reach out to me on
               <a
                 href="https://www.linkedin.com/in/lvollmer/"
-                className="font-bold text-[#957fef]"
+                className="font-bold text-[#777394]"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -62,7 +62,7 @@ const Contact = () => {
               or take a look at my
               <a
                 href="https://github.com/lavollmer"
-                className="font-bold text-[#957fef]"
+                className="font-bold text-[#777394]"
                 target="_blank"
                 rel="noreferrer noopener"
               >

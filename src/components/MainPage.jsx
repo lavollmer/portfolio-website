@@ -44,7 +44,7 @@ const MainPage = () => {
         <h2 className="text-2xl md:text-4xl font-poppins">
           software and websites.
         </h2>
-        <div className="flex flex-row flex-between m-10 items-left">
+        <div className="flex flex-col md:flex-row flex-between space-y-5 md:space-y-0 md:space-x-20 m-10 items-left">
           <Resume />
           <ViewPort />
         </div>

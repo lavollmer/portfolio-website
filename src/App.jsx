@@ -31,7 +31,6 @@ function App() {
         <Design />
         <About />
         <Work />
-        <Resume />
         <Contact />
         <Footer />
       </BrowserRouter>
