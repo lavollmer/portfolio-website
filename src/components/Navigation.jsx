@@ -63,6 +63,9 @@ const Navigation = () => {
                 <li>
                   <a href="#contact">CONTACT</a>
                 </li>
+                <li>
+                  <a href="#resume">DOWNLOAD MY RESUME</a>
+                </li>
               </ul>
             </nav>
           </animated.div>

@@ -8,6 +8,7 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 //import Background image for cover
 import Background from "../src/assets/ColorBackground.avif";
@@ -30,6 +31,7 @@ function App() {
         <Design />
         <About />
         <Work />
+        <Resume />
         <Contact />
         <Footer />
       </BrowserRouter>
