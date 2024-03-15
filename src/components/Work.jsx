@@ -3,7 +3,10 @@ import React from "react";
 const Work = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font overflow-hidden p-10">
+      <section
+        className="text-gray-600 body-font overflow-hidden p-10"
+        id="work"
+      >
         <div className="container px-5 py-24 mx-auto">
           <h1
             className=" text-2xl md:text-4xl text-black items-center text-center m-10"
@@ -175,7 +178,10 @@ const Work = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 md:ml-10 text-sm md:text-xl mx-auto text-black items-center text-center">
+        <div
+          className="grid grid-cols-1 gap-4 md:ml-10 text-sm md:text-xl mx-auto text-black items-center text-center"
+          id="education"
+        >
           <h1
             className="text-xl md:text-3xl font-medium text-black  p-2"
             id="work"
