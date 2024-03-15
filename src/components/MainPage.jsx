@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
 import { useSpring } from "react-spring";
 import Resume from "./Resume";
+import ViewPort from "./ViewPort";
 
 const MainPage = () => {
   const props = useSpring({
@@ -43,8 +44,9 @@ const MainPage = () => {
         <h2 className="text-2xl md:text-4xl font-poppins">
           software and websites.
         </h2>
-        <div className="m-10 text-left items-left">
+        <div className="flex flex-row flex-between m-10 items-left">
           <Resume />
+          <ViewPort />
         </div>
       </div>
       <ScrollToTop smooth />
