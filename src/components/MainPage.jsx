@@ -2,6 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import ScrollToTop from "react-scroll-to-top";
 import { useSpring } from "react-spring";
+import Resume from "./Resume";
 
 const MainPage = () => {
   const props = useSpring({
@@ -42,6 +43,9 @@ const MainPage = () => {
         <h2 className="text-2xl md:text-4xl font-poppins">
           software and websites.
         </h2>
+        <div className="m-10 text-left items-left">
+          <Resume />
+        </div>
       </div>
       <ScrollToTop smooth />
     </div>
