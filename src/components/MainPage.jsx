@@ -16,10 +16,10 @@ const MainPage = () => {
   return (
     <div id="home" className="main-page">
       <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
-        <h1 className="text-5xl md:text-6xl lg:text-8xl font-poppins">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-poppins">
           Software <br /> Developer.
         </h1>
-        <h2 className="text-2xl md:text-4xl font-poppins mt-4 md:mt-8">
+        <h2 className="text-2xl md:text-4xl  font-poppins mt-4 md:mt-8">
           I love to create
         </h2>
         <TypeAnimation
