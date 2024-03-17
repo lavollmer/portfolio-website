@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A modern and user-friendly web development portfolio website crafted with ReactJS, TailwindCSS, Vite, and JavaScript. This solo project showcases a sleek, user-friendly and mobile-responsive interface. The portfolio encompasses a Home Page, Navigation, About, Projects, Technical Skills, Photography Gallery, and Contact section. Each section has been meticulously created with care and is continuously updated to ensure an engaging experience.
+A modern, mobile responsive and user-friendly web development portfolio website crafted with ReactJS, TailwindCSS, Vite, and JavaScript. This solo project showcases a sleek, and mobile-responsive interface. The Lighthouse report for this website lists 100 in best practices and SEO. The portfolio encompasses a Home Page, Navigation, About, Projects, Technical Skills, Photography Gallery, and Contact section. Each section has been meticulously created with care and is continuously updated to ensure an engaging experience.
 
 ## Table of Contents
 
