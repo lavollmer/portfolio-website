@@ -19,7 +19,7 @@ const MainPage = () => {
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-poppins">
           Software <br /> Developer.
         </h1>
-        <h2 className="text-2xl md:text-4xl  font-poppins mt-4 md:mt-8">
+        <h2 className="text-xl md:text-4xl  font-poppins mt-4 md:mt-8">
           I love to create
         </h2>
         <TypeAnimation
@@ -34,14 +34,14 @@ const MainPage = () => {
           wrapper="span"
           speed={50}
           style={{
-            fontSize: "2em",
+            fontSize: "1.5em",
             display: "inline-block",
             color: "black",
             textDecoration: "bold",
           }}
           repeat={Infinity}
         />
-        <h2 className="text-2xl md:text-4xl font-poppins">
+        <h2 className="text-xl md:text-4xl font-poppins">
           software and websites.
         </h2>
         <div className="flex flex-col md:flex-row flex-between space-y-5 md:space-y-0 md:space-x-20 m-10 items-left">
