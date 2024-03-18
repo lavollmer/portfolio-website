@@ -111,7 +111,7 @@ I extend gratitude to all the individuals, communities, and organizations that h
 - Google Fonts: Poppins
 - ScrollToTop: https://www.npmjs.com/package/react-scroll-to-top
 - Inspiration for Gallery Images: https://flowbite.com/docs/components/gallery/
-- React Chatbot Inspiration: https://www.npmjs.com/package/react-chatbot-kit
+- React Chatbot Inspiration: https://www.freecodecamp.org/news/how-to-build-a-chatbot-with-react/
 
 ## Licenses
 
