@@ -25,7 +25,95 @@ const ProjectDisplay = () => {
           </button>
         </a>
         {/* grid container - 3 when medium sized or above columns specified - gap of 6 units between columns */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-5 py-24 mx-auto px-auto">
+        <div className="grid grid-cols-1 gap-6 px-5 py-24 mx-auto px-auto">
+          <div className="bg-white shadow-lg rounded-lg outline outline-black p-2">
+            <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
+              Missing Puzzle Piece Application
+            </h3>
+            <p className="p-4 md:p-6 text-lg md:text-xl">
+              A solo project to create a missing puzzle piece application. The
+              primary technologies leveraged for this project were ReactJS,
+              JavaScript, TailwindCSS, and Vite.
+            </p>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/missingpuzzlepiece"
+                aria-label="Laura Vollmer Github Missing Puzzle Piece Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
+                <Button id="Missing Puzzle Piece Github Code Button" />
+              </a>
+            </div>
+
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://missing-puzzle-piece-b568b18a56c7.herokuapp.com/"
+                aria-label="Laura Vollmer Missing Puzzle Piece Website"
+              >
+                <ButtonWebsite id="Missing Puzzle Piece Button" />
+              </a>
+            </div>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg outline outline-black p-2">
+            <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
+              Sunnyside Landing Page Frontend Mentor Project
+            </h3>
+            <p className="p-4 md:p-6 text-lg md:text-xl">
+              This project involved creating a replica of a agency landing page,
+              adhering strictly to a provided design. The challenge was to match
+              the design 1:1 without any additional guidance on the code or
+              frameworks to be used. The primary technologies leveraged for this
+              project were ReactJS, JavaScript, TailwindCSS, and Vite.
+            </p>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/sunnyside-agency-landingpage"
+                aria-label="Laura Vollmer Github Sunnyside Landing Page Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
+                <Button id="Sunnyside Landing Page Github Code Button" />
+              </a>
+            </div>
+
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://sunnyside-landing-page-lauradev.netlify.app/"
+                aria-label="Laura Vollmer Sunnyside Landing Page Website"
+              >
+                <ButtonWebsite id="Sunnyside Landing Page Website Button" />
+              </a>
+            </div>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg outline outline-black p-2">
+            <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
+              News-Homepage Frontend Mentor Project
+            </h3>
+            <p className="p-4 md:p-6 text-lg md:text-xl">
+              This project involved creating a replica of a News website
+              homepage, adhering strictly to a provided design. The challenge
+              was to match the design 1:1 without any additional guidance on the
+              code or frameworks to be used. The primary technologies leveraged
+              for this project were ReactJS, JavaScript, TailwindCSS, and Vite.
+            </p>
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://github.com/lavollmer/news-homepage"
+                aria-label="Laura Vollmer Github News-Homepage Repository"
+                className="flex flex-col justify-center items-center mt-3"
+              >
+                <Button id="News Homepage Github Code Button" />
+              </a>
+            </div>
+
+            <div className="flex flex-row justify-center p-2">
+              <a
+                href="https://news-homepage-lauradev.netlify.app/"
+                aria-label="Laura Vollmer News-Homepage Website"
+              >
+                <ButtonWebsite id="Gift Guide Website Button" />
+              </a>
+            </div>
+          </div>
           <div className="bg-white shadow-lg rounded-lg outline outline-black p-2">
             <h3 className="items-center text-center text-poppins text-xl md:text-2xl">
               Giftify
