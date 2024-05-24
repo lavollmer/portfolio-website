@@ -21,7 +21,7 @@ const Navigation = () => {
   return (
     <div className="absolute top-0 flex flex-row justify-between w-full">
       <h1 className="text-2xl md:text-3xl font-poppins p-10 font-bold">
-        LAURA VOLLMER
+        LV
       </h1>
       <ul className="flex flex-row right-0 p-10">
         <li className="md:p-2">

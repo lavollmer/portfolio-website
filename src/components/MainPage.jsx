@@ -16,13 +16,16 @@ const MainPage = () => {
   return (
     <div id="home" className="main-page">
       <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-poppins">
-          Software <br /> Developer.
+        <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl font-poppins">
+          Laura <br /> Vollmer
+        </h1>
+        <h1 className="text-xl md:text-5xl lg:text-6xl font-poppins">
+          Software Developer
         </h1>
         <h2 className="text-xl md:text-4xl  font-poppins mt-4 md:mt-8">
           I love to create
         </h2>
-        <TypeAnimation
+        {/* <TypeAnimation
           sequence={[
             "innovative",
             2000,
@@ -34,13 +37,13 @@ const MainPage = () => {
           wrapper="span"
           speed={50}
           style={{
-            fontSize: "1.5em",
+            fontSize: "2em",
             display: "inline-block",
             color: "black",
-            textDecoration: "bold",
+            fontWeight: "bold",
           }}
           repeat={Infinity}
-        />
+        /> */}
         <h2 className="text-xl md:text-4xl font-poppins">
           software and websites.
         </h2>
