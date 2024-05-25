@@ -17,7 +17,7 @@ const MainPage = () => {
     <div id="home" className="main-page">
       <div className="absolute top-1/2 left-1/4 transform -translate-y-1/2 -translate-x-1/4 z-10 text-black  p-4">
         <h1 className="font-bold text-4xl md:text-5xl lg:text-6xl font-poppins">
-          Laura <br /> Vollmer
+          Hey, I'm Laura Vollmer.
         </h1>
         <h1 className="text-xl md:text-5xl lg:text-6xl font-poppins">
           Software Developer
