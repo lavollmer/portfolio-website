@@ -97,6 +97,8 @@ This project was created and is maintained by Laura Vollmer who is passionate ab
 - Diverse work experience in healthcare and floral design
 - Continuously updating the website with new information learned
 
+During the end of this project and for updates, the author worked on debugging it to install to Netlify. It required a lot of digilence and understanding around the product.
+
 If you have any questions, suggestions, or issues regarding this project, please don't hesitate to reach out.
 
 ## Acknowledgements
